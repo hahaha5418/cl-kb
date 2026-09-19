@@ -1,0 +1,20 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/.temp/
+docs/.vitepress/cache/
+.scratch/
+publish/
+web/
+config.mjs.timestamp-*
+*.timestamp-*
+.DS_Store
+*.log
+
+# 存放 AI 的 API Key，绝不能提交到 GitHub
+scripts/ai_config.json
+
+.vercel
+.env*
+
+# Cloudflare 旧方案遗留(含 account_id)，不提交
+.cloudflare.json
