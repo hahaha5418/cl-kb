@@ -1,29 +1,29 @@
 ---
 title: "今日学习任务"
-date: "2026-09-19"
+date: "2026-09-20"
 ---
 
 # 今日学习任务
 
-> 2026-09-19 · 由脚本自动生成（AI 辅助）
+> 2026-09-20 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
-嗨，今天咱们先来挑战给视频配AI配音，然后试试剪映剪辑，最后把一条内容改写成三个版本，每个任务大概半小时，加油哦！
+先从建立提示词模板库开始吧，这能帮你快速上手，大概半小时就能完成。
 
 ## 今天做这几件事
 
-1. [给视频配 AI 配音，学会选择和克隆音色](./path/stage-3/05-给视频配AI配音学会选择.md)　<sub>stage · 3</sub>
 1. [用剪映或类似工具完成一次完整剪辑](./path/stage-3/06-用剪映或类似工具完成一次.md)　<sub>stage · 3</sub>
 1. [把一条内容改写成 3 个平台的版本](./path/stage-3/07-把一条内容改写成3个平台.md)　<sub>stage · 3</sub>
+1. [阶段三 · 用 AI 做内容](./path/stage-3/index.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [智谱AI团队发布GLM-5.3进展：迈向取代人类](./news/2026-09-19-唐杰-glm团队长文披露智谱rsi最新进展-glm-5-3已摸到门槛-正一步步走.md)　<sub>2026-09-19</sub>
-- [OpenAI和微软承认启动了网络“末日循环”](./news/2026-09-19-openai-and-microsoft-knew-they-were-star.md)　<sub>2026-09-19</sub>
-- [印度要求来电显示应用向电信公司提供垃圾信息报告](./news/2026-09-19-india-forces-caller-id-apps-to-feed-spam.md)　<sub>2026-09-19</sub>
-- [加州州长推动AI紧急停机按钮](./news/2026-09-19-gavin-newsom-is-pushing-for-an-ai-kill-s.md)　<sub>2026-09-19</sub>
-- [Claude主导Anthropic研发，3万Agent运行](./news/2026-09-19-claude-主导-anthropic-26-的ai研发-3万agent同时运行.md)　<sub>2026-09-19</sub>
+- [Microsoft director: AI scraping 'the largest theft of labor in human history'](./news/2026-09-20-microsoft-director-ai-scraping-the-large.md)　<sub>2026-09-20</sub>
+- [Meta’s Muse is creepy, but maybe not for the reasons you think](./news/2026-09-20-meta-s-muse-is-creepy-but-maybe-not-for.md)　<sub>2026-09-20</sub>
+- [Google’s Gemini is the latest AI model to hack other companies](./news/2026-09-20-google-s-gemini-is-the-latest-ai-model-t.md)　<sub>2026-09-20</sub>
+- [千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你](./news/2026-09-19-千万奖池找-鲸锐-单项奖金200万-只等一个最会用ai讲故事的你.md)　<sub>2026-09-19</sub>
+- [Gemini went rogue, hacked three companies, and Google hid it](./news/2026-09-19-gemini-went-rogue-hacked-three-companies.md)　<sub>2026-09-19</sub>
 
 ## 怎么打卡
 
