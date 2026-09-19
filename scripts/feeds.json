@@ -1,0 +1,20 @@
+{
+  "max_per_feed": 5,
+  "keep_days": 60,
+  "feeds": [
+    { "name": "OpenAI Blog",     "url": "https://openai.com/blog/rss.xml",                                  "tag": "OpenAI" },
+    { "name": "Anthropic News",  "url": "https://www.anthropic.com/news", "type": "anthropic", "max": 4,    "tag": "Claude" },
+    { "name": "Google AI Blog",  "url": "https://blog.google/technology/ai/rss/",                           "tag": "Gemini" },
+    { "name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml",                             "tag": "Gemini" },
+    { "name": "Hugging Face",    "url": "https://huggingface.co/blog/feed.xml",                             "tag": "开源" },
+    { "name": "arXiv cs.AI",     "url": "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=6", "max": 3, "tag": "论文" },
+    { "name": "arXiv cs.CL",     "url": "http://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=6", "max": 2, "tag": "论文" },
+    { "name": "Hacker News",     "url": "https://hnrss.org/newest?q=AI&points=50",                          "tag": "社区" },
+    { "name": "TechCrunch AI",   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",    "tag": "行业" },
+    { "name": "The Verge AI",    "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml","tag": "行业" },
+    { "name": "VentureBeat AI",  "url": "https://venturebeat.com/category/ai/feed/",                        "tag": "行业" },
+    { "name": "MIT Tech Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed","tag": "观点" },
+    { "name": "量子位",           "url": "https://www.qbitai.com/feed",                                      "tag": "国内" },
+    { "name": "InfoQ 中文",       "url": "https://www.infoq.cn/feed",                                        "tag": "国内" }
+  ]
+}

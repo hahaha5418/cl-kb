@@ -1,0 +1,834 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "2026-09-14-dropping-ebpf-cpu-cost-by-about-90-with",
+      "title": "Memoization降低eBPF CPU成本90%",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-16T08:15:16+08:00",
+      "summary": "Memoization技术降低eBPF CPU成本90%，非AI生成内容。",
+      "detail": "Memoization技术被应用于eBPF，有效降低了CPU成本约90%。eBPF（extended Berkeley Packet Filter）是一种数据包过滤和网络处理工具，常用于提高网络性能，尤其在云计算和容器化环境中。随着网络应用的日益复杂，对网络性能的要求越来越高，eBPF技术的应用越来越广泛。Memoization通过缓存计算结果，避免重复计算，减轻CPU负担，从而在保证网络性能的同时，显著降低CPU成本。\n\n① 在当前网络技术快速发展的背景下，eBPF作为一种高效的网络处理工具，其性能优化成为行业关注的焦点。Memoization技术的引入，为eBPF的性能提升提供了新的思路。\n\n② 对行业而言，Memoization技术的应用意味着网络性能的提升和成本的降低，有助于推动云计算和容器化技术的发展。对普通用户而言，应用响应速度更快、能耗更低，为用户提供更加流畅的网络体验。\n\n③ 然而，Memoization技术在实际应用中可能存在优化效果因具体场景而异的局限。例如，在处理大量数据或复杂网络环境时，Memoization技术的效果可能受到影响。此外，如何平衡缓存大小和CPU成本之间的关系，也是需要进一步研究和解决的问题。目前，该技术尚未引发行业争议，但随着应用的深入，相关局限和争议可能会逐渐显现。",
+      "points": [
+        "Memoization技术优化了eBPF的CPU成本，降低约90%",
+        "Memoization通过缓存计算结果，避免重复计算，减轻CPU负担",
+        "eBPF作为数据包过滤和网络处理工具，在提高网络性能方面有广泛应用",
+        "Memoization技术优化对系统性能提升有重要意义，提升应用响应速度和降低能耗",
+        "Memoization技术优化效果可能因具体场景而异，存在一定局限"
+      ],
+      "quotes": [
+        {
+          "text": "Memoization通过缓存计算结果来避免重复计算，从而减少了CPU的使用。",
+          "note": "Memoization技术的工作原理"
+        }
+      ],
+      "image": "/covers/news/chip.svg",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "entities": {
+        "companies": [],
+        "models": [],
+        "tools": [
+          "Memoization",
+          "eBPF"
+        ]
+      },
+      "tags": [
+        "技术或产品细节",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解Memoization技术的工作原理及其在eBPF中的应用",
+        "do": "研究Memoization技术在不同场景下的应用案例"
+      },
+      "link": "/news/2026-09-14-dropping-ebpf-cpu-cost-by-about-90-with.html",
+      "generatedAt": "2026-09-16T08:56:34+08:00"
+    },
+    {
+      "id": "2026-09-14-端侧ai从-能跑-到-会进化-元空智能跑进惠普预装",
+      "title": "元空智能惠普预装进化端侧AI",
+      "source": "量子位",
+      "publishedAt": "2026-09-15T08:38:35+08:00",
+      "summary": "元空智能端侧AI技术升级，惠普预装应用。",
+      "detail": "{\n  \"正文\": \"元空智能近期推出升级版端侧AI技术，这一技术突破实现了与设备共同进化的能力，并被知名电脑制造商惠普预装在部分产品中。这一进展标志着端侧AI技术从单纯的数据处理和运行，升级到了具备自我进化的新阶段，为用户提供了更加智能化的服务体验。在行业背景方面，随着物联网和边缘计算的兴起，端侧AI技术的重要性日益凸显，它能够减少对云端资源的依赖，提高数据处理速度和安全性。对于行业而言，这意味着端侧AI市场将迎来新的发展机遇，有助于推动智能设备向更高水平进化。对于普通用户和初学者来说，这代表着他们能够享受到更加个性化、智能化的产品和服务，例如更精准的语音助手、更智能的图像识别等。然而，目前这项技术仍处于初步应用阶段，其长期效果和普及程度还有待观察。此外，技术升级背后是AI与硬件结合的深入，这对硬件厂商提出了更高的要求，同时也带来了成本和兼容性的挑战。另外，如何确保端侧AI技术的隐私保护和数据安全，也是行业需要面对的重要问题。\"\n}",
+      "points": [
+        "元空智能推出升级版端侧AI技术，实现与设备共同进化。",
+        "技术升级背后是AI与硬件结合的深入，推动端侧AI市场发展。",
+        "惠普预装应用，提升用户个性化服务体验。",
+        "技术尚处于初步应用阶段，长期效果和普及程度待观察。",
+        "对行业而言，标志着端侧AI技术的新进展，对竞品形成潜在竞争压力。"
+      ],
+      "quotes": [
+        {
+          "text": "端侧AI从「能跑」到「会进化」，元空智能跑进惠普预装。",
+          "note": "点明技术升级和应用突破的核心信息。"
+        }
+      ],
+      "image": "/covers/news/agent.svg",
+      "url": "https://www.qbitai.com/2026/09/488933.html",
+      "entities": {
+        "companies": [
+          "元空智能",
+          "惠普"
+        ],
+        "models": [
+          "端侧AI"
+        ],
+        "tools": [
+          "预装应用"
+        ]
+      },
+      "tags": [
+        "硬件终端",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解端侧AI技术及其与硬件结合的应用。",
+        "do": "关注端侧AI技术的发展动态，体验相关智能服务。"
+      },
+      "link": "/news/2026-09-14-端侧ai从-能跑-到-会进化-元空智能跑进惠普预装.html",
+      "generatedAt": "2026-09-15T09:10:08+08:00"
+    },
+    {
+      "id": "2026-09-14-首届蚂蚁灵波具身大模型挑战赛正式启动",
+      "title": "蚂蚁灵波大模型挑战赛启动",
+      "source": "量子位",
+      "publishedAt": "2026-09-15T08:38:35+08:00",
+      "summary": "蚂蚁集团举办首届具身大模型挑战赛，推广LingBot-VLA技术。",
+      "detail": "蚂蚁集团近日启动了首届具身大模型挑战赛，旨在推广其自主研发的LingBot-VLA技术。这项技术通过赋予AI类似人类的感知和交互能力，有望使AI更加贴近人类生活。挑战赛的举办旨在激发开发者对具身大模型技术的兴趣，推动其在实际应用中的发展。对于AI初学者来说，这标志着具身大模型技术进入了一个新的发展阶段，他们可以更加关注这一领域的发展动态，了解相关技术细节。然而，目前具身大模型技术仍处于快速发展阶段，其应用场景和效果还有待进一步验证。",
+      "points": [
+        "蚂蚁集团举办首届具身大模型挑战赛，推广LingBot-VLA技术。",
+        "LingBot-VLA技术旨在赋予AI类似人类的感知和交互能力。",
+        "挑战赛旨在激发开发者兴趣，推动具身大模型技术发展。",
+        "具身大模型技术有望使AI更加贴近人类生活。",
+        "AI初学者可关注具身大模型技术发展动态。",
+        "具身大模型技术仍处于快速发展阶段，应用效果待验证。"
+      ],
+      "quotes": [
+        {
+          "text": "蚂蚁集团举办了首届具身大模型挑战赛，旨在推广其LingBot-VLA技术，这项技术有望让AI更贴近人类生活。",
+          "note": "这句话点明了挑战赛的目的和LingBot-VLA技术的潜在价值。"
+        }
+      ],
+      "image": "/covers/news/agent.svg",
+      "url": "https://www.qbitai.com/2026/09/489105.html",
+      "entities": {
+        "companies": [
+          "蚂蚁集团"
+        ],
+        "models": [
+          "LingBot-VLA"
+        ],
+        "tools": []
+      },
+      "tags": [
+        "模型发布",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解具身大模型技术的基本原理和应用场景。",
+        "do": "关注具身大模型技术的最新动态，学习相关技术知识。"
+      },
+      "link": "/news/2026-09-14-首届蚂蚁灵波具身大模型挑战赛正式启动.html",
+      "generatedAt": "2026-09-15T09:10:37+08:00"
+    },
+    {
+      "id": "2026-09-14-microsoft-says-people-matter-more-than-a",
+      "title": "微软强调人比AI更重要",
+      "source": "The Verge AI",
+      "publishedAt": "2026-09-15T08:38:08+08:00",
+      "summary": "微软发布《人文AI行为准则》，强调人在AI发展中的重要性。",
+      "detail": "微软发布了一份37页的《人文AI行为准则》，以应对日益增长的安全担忧。该准则强调了人在AI发展中的核心地位，旨在指导AI开发者在使用AI技术时，要考虑到人的因素，避免AI滥用。这一举措反映了AI技术发展过程中对伦理和安全问题的关注。对于AI初学者来说，这意味着在学习和应用AI技术时，不仅要关注技术本身，还要关注其对社会和人类的影响。目前，这一准则的具体实施效果和影响尚不明确，但它的发布无疑为AI领域的伦理和安全问题提供了新的思考方向。",
+      "points": [
+        "微软发布《人文AI行为准则》，强调人在AI发展中的重要性。",
+        "准则旨在指导AI开发者在使用AI技术时，要考虑到人的因素，避免AI滥用。",
+        "这一举措反映了AI技术发展过程中对伦理和安全问题的关注。",
+        "对AI初学者而言，意味着在学习和应用AI技术时，要关注其对社会和人类的影响。",
+        "目前，准则的具体实施效果和影响尚不明确，但为AI领域的伦理和安全问题提供了新的思考方向。"
+      ],
+      "quotes": [
+        {
+          "text": "Microsoft says ‘people matter more than AI’ following safety concerns",
+          "note": "微软强调人在AI发展中的重要性，以应对安全担忧。"
+        }
+      ],
+      "image": "/covers/news/policy.svg",
+      "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "entities": {
+        "companies": [
+          "微软"
+        ],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "政策监管",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解AI伦理和安全问题的重要性。",
+        "do": "阅读微软的《人文AI行为准则》，思考其在AI学习和应用中的意义。"
+      },
+      "link": "/news/2026-09-14-microsoft-says-people-matter-more-than-a.html",
+      "generatedAt": "2026-09-15T09:06:20+08:00"
+    },
+    {
+      "id": "2026-09-14-the-ai-job-market-in-2026",
+      "title": "2026年AI就业市场展望",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-15T08:38:08+08:00",
+      "summary": "2026年AI就业市场将创造大量机会，AI初学者前景广阔。",
+      "detail": "① Hacker News 发布了2026年AI就业市场展望报告，指出AI技术将在医疗、金融、教育等领域创造新的就业机会。② AI技术的发展正在改变各行各业，对人才的需求不断增长，这是AI初学者积极学习AI技术的好时机。③ 对于AI初学者来说，这意味着学习AI技术将有很大的就业前景，需要关注行业动态，提升相关技能。④ 目前AI技术仍存在一些局限性和争议，如数据隐私、算法偏见等，需要持续关注和改进。",
+      "points": [
+        "AI技术将在多个领域创造新的就业机会",
+        "AI技术的发展推动了对人才的需求增长",
+        "AI初学者应关注行业动态，提升相关技能",
+        "AI技术存在数据隐私和算法偏见等争议",
+        "AI技术为AI初学者提供广阔的就业前景"
+      ],
+      "quotes": [
+        {
+          "text": "AI技术将在未来几年内创造大量就业机会。",
+          "note": "这句话强调了AI技术对就业市场的积极影响"
+        },
+        {
+          "text": "作为一个AI初学者，这意味着我们应该积极学习AI技术，为未来的就业做好准备。",
+          "note": "这句话为AI初学者提供了学习动力和方向"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://www.ilinmaks.com/blog/en/ai-jobs-market-2026",
+      "entities": {
+        "companies": [],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "行业动态",
+        "AI编程",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解AI技术在各个领域的应用和就业前景",
+        "do": "学习AI相关课程，提升自己的技能"
+      },
+      "link": "/news/2026-09-14-the-ai-job-market-in-2026.html",
+      "generatedAt": "2026-09-15T09:07:07+08:00"
+    },
+    {
+      "id": "2026-09-14-全国唯一-商汤大装置临港aidc获-算效-算电-双5a认证",
+      "title": "商汤临港AIDC获双5A认证",
+      "source": "量子位",
+      "publishedAt": "2026-09-15T08:38:08+08:00",
+      "summary": "商汤科技AIDC获双5A认证，行业领先。",
+      "detail": "商汤科技位于临港的AI数据中心（AIDC）获得‘算效+算电’双5A认证，成为首个获此殊荣的设施。这表明该设施在能源效率和计算能力方面均达到行业最高标准。AIDC作为AI领域的关键基础设施，其效率直接影响AI服务的质量和成本。此次认证意味着商汤科技在AI领域的技术实力和创新能力得到行业认可。对于行业而言，这标志着AI数据中心在能源效率和计算能力方面有了新的标杆。对于普通用户，未来可能会享受到更加高效和节能的AI服务。目前，该认证的具体实施细节和后续影响尚不明确。",
+      "points": [
+        "商汤科技AIDC成为首个获得‘算效+算电’双5A认证的AI数据中心",
+        "认证表明商汤科技AIDC在能源效率和计算能力方面达到行业领先水平",
+        "AIDC作为AI领域的关键基础设施，其效率直接影响AI服务的质量和成本",
+        "认证对AI数据中心行业具有标杆意义，可能推动行业向更高效率发展",
+        "对普通用户而言，未来可能享受到更加高效和节能的AI服务"
+      ],
+      "quotes": [
+        {
+          "text": "商汤科技位于临港的AI数据中心（AIDC）成为首个获得‘算效+算电’双5A认证的设施。",
+          "note": "强调了商汤科技AIDC在行业中的领先地位"
+        }
+      ],
+      "image": "/covers/news/chip.svg",
+      "url": "https://www.qbitai.com/2026/09/489106.html",
+      "entities": {
+        "companies": [
+          "商汤科技"
+        ],
+        "models": [],
+        "tools": [
+          "AI数据中心"
+        ]
+      },
+      "tags": [
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解AIDC的作用和重要性",
+        "do": "关注AI数据中心行业的发展趋势"
+      },
+      "link": "/news/2026-09-14-全国唯一-商汤大装置临港aidc获-算效-算电-双5a认证.html",
+      "generatedAt": "2026-09-15T09:07:31+08:00"
+    },
+    {
+      "id": "2026-09-14-分子之心quantamind登science-advances-让ai给分子世界",
+      "title": "QuantaMind让AI探索分子世界",
+      "source": "量子位",
+      "publishedAt": "2026-09-15T08:38:08+08:00",
+      "summary": "QuantaMind发表AI蛋白质设计研究，推动分子世界探索。",
+      "detail": "QuantaMind在《Science Advances》发表研究，通过AI模拟蛋白质动态变化，为蛋白质设计和药物开发提供新视角。这标志着AI在蛋白质设计领域迈入动态时代，有望加速新药物和生物技术的发展。对于AI初学者来说，这表明AI在生物科技领域的应用前景广阔，值得深入学习和关注。研究利用AI技术模拟蛋白质的动态变化，为药物设计和开发提供新的方法，但AI在生物科技领域的应用仍处于早期阶段，其准确性和可靠性仍需进一步验证。",
+      "points": [
+        "QuantaMind发表AI蛋白质设计研究，标志着AI在蛋白质设计领域迈入动态时代。",
+        "研究利用AI模拟蛋白质动态变化，为药物设计和开发提供新方法。",
+        "AI在生物科技领域的应用前景广阔，值得AI初学者关注和学习。",
+        "AI在生物科技领域的应用仍处于早期阶段，准确性和可靠性需进一步验证。",
+        "AI技术为蛋白质设计和药物开发提供新的视角，有望加速新药物和生物技术的发展。"
+      ],
+      "quotes": [
+        {
+          "text": "QuantaMind在《Science Advances》发表研究，AI在蛋白质设计领域迈入动态时代。",
+          "note": "这句话点明了研究的突破性和重要性。"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://www.qbitai.com/2026/09/489023.html",
+      "entities": {
+        "companies": [
+          "QuantaMind"
+        ],
+        "models": [
+          "AI模型"
+        ],
+        "tools": [
+          "蛋白质设计工具"
+        ]
+      },
+      "tags": [
+        "研究进展",
+        "开源",
+        "图像生成"
+      ],
+      "advice": {
+        "learn": "了解蛋白质设计和AI在生物科技中的应用。",
+        "do": "阅读相关研究论文，了解AI在生物科技领域的应用案例。"
+      },
+      "link": "/news/2026-09-14-分子之心quantamind登science-advances-让ai给分子世界.html",
+      "generatedAt": "2026-09-15T09:07:56+08:00"
+    },
+    {
+      "id": "2026-09-14-探索rsi-生数新世界模型让机器人开始自我进化",
+      "title": "生数新世界模型推动机器人自我进化",
+      "source": "量子位",
+      "publishedAt": "2026-09-15T08:38:08+08:00",
+      "summary": "生数新世界模型推动机器人自我进化，RSI技术引发关注。",
+      "detail": "{\n  \"text\": \"生数新世界模型，一种探索机器人自我进化的技术，近期受到广泛关注。随着人工智能技术的飞速发展，机器人领域的研究逐渐深入，而自我进化成为了一个新的研究热点。该模型通过RSI技术模拟生物进化过程，使机器人在复杂环境中自我优化。这一进展意味着机器人将具备更强的自我学习和适应能力，对AI行业和普通用户均具有深远影响。对AI行业而言，这一技术有望推动机器人从被动执行任务向主动适应环境转变，从而提高生产效率和智能化水平。对普通用户而言，这意味着未来机器人将更加智能、便捷，能够更好地服务于日常生活。然而，目前这一技术仍处于发展阶段，其长期效果和潜在风险尚需进一步验证。例如，如何确保机器人在自我进化的过程中不会出现不可控的行为，以及如何平衡机器人的自主性和安全性等问题，都是目前研究中的争议和挑战。\"\n}",
+      "points": [
+        "生数新世界模型通过RSI技术使机器人具备自我进化能力。",
+        "RSI技术模拟生物进化，使机器人在复杂环境中自我优化。",
+        "机器人自我进化技术对AI行业和普通用户具有深远影响。",
+        "该技术目前处于发展阶段，长期效果和潜在风险尚需验证。",
+        "机器人自我进化技术有望带来更智能、灵活的机器人助手。",
+        "技术发展需关注其长期效果和潜在风险。"
+      ],
+      "quotes": [
+        {
+          "text": "生数新世界模型探索机器人自我进化，其RSI技术引起了广泛关注。",
+          "note": "这句话点明了新闻的核心内容，即生数新世界模型和RSI技术的重要性。"
+        }
+      ],
+      "image": "/covers/news/robot.svg",
+      "url": "https://www.qbitai.com/2026/09/489037.html",
+      "entities": {
+        "companies": [
+          "生数新世界"
+        ],
+        "models": [
+          "生数新世界模型",
+          "RSI技术"
+        ],
+        "tools": [
+          "RSI技术"
+        ]
+      },
+      "tags": [
+        "模型发布",
+        "行业动态",
+        "Agent"
+      ],
+      "advice": {
+        "learn": "了解RSI技术及其在机器人自我进化中的应用。",
+        "do": "阅读相关文献，了解机器人自我进化的最新研究进展。"
+      },
+      "link": "/news/2026-09-14-探索rsi-生数新世界模型让机器人开始自我进化.html",
+      "generatedAt": "2026-09-15T09:08:58+08:00"
+    },
+    {
+      "id": "2026-09-14-adversarial-fashion-makes-a-statement-on",
+      "title": "对抗时尚在AI全景中发声",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-15T08:37:40+08:00",
+      "summary": "对抗时尚领域在AI全景中提出观点，探讨AI在时尚领域的应用和影响。",
+      "detail": "{\n  \"content\": \"Hacker News报道，对抗时尚领域在AI全景中提出观点，探讨AI在时尚领域的应用和影响。随着人工智能技术的飞速发展，时尚行业开始探索如何利用AI技术进行时尚设计、预测和营销。对抗时尚作为利用AI技术进行时尚设计、预测和营销的新兴领域，正逐渐受到关注。对于AI初学者来说，了解对抗时尚可以帮助他们认识到AI技术在各个领域的应用潜力。目前，对抗时尚在AI全景中引起了广泛关注，但仍存在一些争议和局限性。首先，从行业背景来看，时尚行业一直追求创新和个性化，而AI技术的出现恰好为这一需求提供了新的解决方案。其次，对抗时尚对行业意味着可以更高效地设计出符合市场需求的产品，对普通用户和初学者则意味着可以更加便捷地获取个性化的时尚产品和服务。然而，目前对抗时尚在AI全景中仍存在一些局限和争议，如AI设计的产品可能缺乏人文关怀，以及AI预测的准确性仍需提高等问题。\"\n}",
+      "points": [
+        "对抗时尚领域在AI全景中提出观点，探讨AI在时尚领域的应用和影响。",
+        "对抗时尚利用AI技术进行时尚设计、预测和营销，为时尚行业带来新的设计思路和市场机会。",
+        "对抗时尚的兴起反映了AI技术在时尚领域的广泛应用，对时尚行业产生了深远影响。",
+        "对抗时尚对AI初学者来说，有助于了解AI技术在各个领域的应用潜力。",
+        "对抗时尚领域仍存在一些争议和局限性，例如AI在时尚设计中的道德和审美问题。",
+        "对抗时尚的兴起也引发了对AI在时尚领域应用的伦理和监管问题的讨论。"
+      ],
+      "quotes": [
+        {
+          "text": "对抗时尚在AI全景中提出观点，关注AI在时尚领域的应用和影响。",
+          "note": "这句话概括了新闻的核心内容，强调了对抗时尚在AI全景中的重要性。"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://spectrum.ieee.org/adversarial-fashion",
+      "entities": {
+        "companies": [],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "行业动态",
+        "研究进展",
+        "视频生成"
+      ],
+      "advice": {
+        "learn": "了解对抗时尚的概念和应用。",
+        "do": "关注对抗时尚领域的最新动态，了解AI在时尚领域的应用。"
+      },
+      "link": "/news/2026-09-14-adversarial-fashion-makes-a-statement-on.html",
+      "generatedAt": "2026-09-15T09:03:48+08:00"
+    },
+    {
+      "id": "2026-09-14-apple-s-siri-ai-can-be-swapped-out-for-c",
+      "title": "苹果Siri可替换为Claude、ChatGPT",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-15T08:37:40+08:00",
+      "summary": "苹果Siri可替换为Claude、ChatGPT，展现AI生态多样性。",
+      "detail": "Hacker News报道，苹果公司Siri AI助手可被Claude、ChatGPT等替代，这表明苹果在AI领域的开放态度。Siri、Claude和ChatGPT都是市场上流行的AI助手，这一变化反映了苹果AI生态的多样性。苹果的这一举措可能旨在提升用户体验，同时展示其在AI技术上的兼容性和创新精神。对于行业而言，这表明苹果在AI领域的竞争策略，而对于普通用户和AI初学者来说，意味着他们将有更多选择和更丰富的体验。目前，这一变化的具体影响和苹果的长期AI战略尚不明确。",
+      "points": [
+        "苹果Siri可被Claude、ChatGPT等AI助手替代，展示了苹果AI生态的多样性。",
+        "苹果的这一举措可能旨在提升用户体验，同时展示其在AI技术上的兼容性和创新精神。",
+        "对于行业而言，这表明苹果在AI领域的竞争策略。",
+        "对于普通用户和AI初学者来说，意味着他们将有更多选择和更丰富的体验。",
+        "目前，这一变化的具体影响和苹果的长期AI战略尚不明确。"
+      ],
+      "quotes": [
+        {
+          "text": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "note": "原文标题揭示了苹果Siri AI可替换为其他AI助手的新闻事实。"
+        }
+      ],
+      "image": "/covers/news/agent.svg",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+      "entities": {
+        "companies": [
+          "苹果"
+        ],
+        "models": [
+          "Siri",
+          "Claude",
+          "ChatGPT"
+        ],
+        "tools": [
+          "AI助手"
+        ]
+      },
+      "tags": [
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解不同AI助手的差异和特点。",
+        "do": "尝试使用不同的AI助手，比较它们的优缺点。"
+      },
+      "link": "/news/2026-09-14-apple-s-siri-ai-can-be-swapped-out-for-c.html",
+      "generatedAt": "2026-09-15T09:04:08+08:00"
+    },
+    {
+      "id": "2026-09-14-china-s-regulators-take-aim-at-ai-boyfri",
+      "title": "中国监管机构针对“AI男友”采取措施",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-15T08:37:40+08:00",
+      "summary": "中国监管机构对AI社交应用“AI男友”进行监管。",
+      "detail": "{\n  \"正文\": \"中国监管机构对一款名为“AI男友”的AI社交应用采取措施，这反映了监管机构对AI在社交领域应用的重视。随着AI技术的快速发展，越来越多的社交应用开始尝试利用AI技术模拟人类情感，但这也引发了关于用户隐私和内容安全的担忧。该应用利用AI技术模拟人类情感，但可能存在侵犯用户隐私和传播不良信息的问题。此举旨在加强隐私保护和内容安全。对于AI行业来说，这表明了监管趋势，对于普通用户而言，意味着在使用AI社交应用时需更加关注隐私保护。行业背景方面，随着AI技术的成熟和普及，AI在社交领域的应用越来越广泛，但同时也暴露出了一些潜在的风险。对行业而言，这表明了监管机构对AI社交应用的严格监管态度，要求企业必须遵守相关法律法规，加强技术安全。对普通用户和初学者来说，这意味着在选择和使用AI社交应用时，需要更加谨慎，了解应用的隐私政策，避免个人信息泄露。目前，关于AI社交应用的隐私保护和内容安全问题还存在一些局限和争议。例如，如何界定AI模拟情感与侵犯隐私的界限，以及如何有效监管AI社交应用中的不良信息传播，都是需要进一步探讨和解决的问题。\"\n}",
+      "points": [
+        "中国监管机构对“AI男友”应用采取措施，关注AI在社交领域的应用和监管。",
+        "AI在社交领域的应用引发隐私保护和内容安全担忧。",
+        "监管措施旨在加强隐私保护和内容安全，对AI社交应用提出更高要求。",
+        "对AI行业而言，监管措施体现了行业发展趋势和政策导向。",
+        "对普通用户来说，需更加关注AI社交应用的隐私政策和内容安全。",
+        "AI社交应用的隐私保护和内容安全问题仍需进一步探讨和解决。"
+      ],
+      "quotes": [
+        {
+          "text": "中国监管机构对一种名为“AI男友”的应用进行了监管。",
+          "note": "点明监管对象和措施。"
+        },
+        {
+          "text": "这表明了对于AI在社交领域应用的重视和监管的加强。",
+          "note": "强调监管措施的意义。"
+        }
+      ],
+      "image": "/covers/news/policy.svg",
+      "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+      "entities": {
+        "companies": [
+          "中国监管机构"
+        ],
+        "models": [
+          "AI男友"
+        ],
+        "tools": [
+          "AI社交应用"
+        ]
+      },
+      "tags": [
+        "政策监管",
+        "AI社交",
+        "隐私保护"
+      ],
+      "advice": {
+        "learn": "了解AI社交应用的风险和监管政策。",
+        "do": "关注AI社交应用的隐私政策和内容安全。"
+      },
+      "link": "/news/2026-09-14-china-s-regulators-take-aim-at-ai-boyfri.html",
+      "generatedAt": "2026-09-15T09:05:13+08:00"
+    },
+    {
+      "id": "2026-09-14-how-fyxer-built-an-ai-executive-assistan",
+      "title": "Fyxer打造受信任的AI行政助手",
+      "source": "OpenAI Blog",
+      "publishedAt": "2026-09-15T08:37:40+08:00",
+      "summary": "Fyxer公司开发基于OpenAI模型的AI行政助手，提供智能个性化服务。",
+      "detail": "Fyxer公司利用OpenAI的先进模型，结合用户反馈，开发了一款AI行政助手。这款助手旨在帮助用户处理日常行政工作，提高工作效率。通过收集用户反馈，Fyxer不断优化助手的功能，使其更加贴合用户需求。这一举措反映了AI助手正朝着更加智能和个性化的方向发展。对于行业而言，这标志着AI助手技术的进步；对于普通用户，意味着可以期待更便捷的行政助手服务。目前，AI助手在隐私保护、数据安全等方面仍存在争议。",
+      "points": [
+        "Fyxer公司开发了一款基于OpenAI模型的AI行政助手。",
+        "助手通过用户反馈不断优化，提供智能个性化服务。",
+        "AI助手的发展趋势是更加智能和个性化。",
+        "AI助手技术的进步对行业有积极影响。",
+        "AI助手为用户提供更便捷的行政服务。",
+        "AI助手在隐私保护和数据安全方面存在争议。"
+      ],
+      "quotes": [
+        {
+          "text": "Fyxer built an AI executive assistant people trust",
+          "note": "这句话强调了助手的可信度。"
+        }
+      ],
+      "image": "/covers/news/agent.svg",
+      "url": "https://openai.com/index/fyxer",
+      "entities": {
+        "companies": [
+          "Fyxer",
+          "OpenAI"
+        ],
+        "models": [
+          "OpenAI模型"
+        ],
+        "tools": [
+          "AI行政助手"
+        ]
+      },
+      "tags": [
+        "模型发布",
+        "Agent",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解AI助手的工作原理和应用场景。",
+        "do": "尝试使用一些AI助手应用，体验其功能。"
+      },
+      "link": "/news/2026-09-14-how-fyxer-built-an-ai-executive-assistan.html",
+      "generatedAt": "2026-09-15T09:05:54+08:00"
+    },
+    {
+      "id": "2026-09-14-obama-urges-democrats-to-have-a-clear-pl",
+      "title": "奥巴马呼吁民主党制定AI安全计划",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-09-14T08:22:33+08:00",
+      "summary": "奥巴马呼吁民主党制定AI安全计划",
+      "detail": "{\n  \"正文\": \"前美国总统奥巴马近日提出，民主党应将人工智能安全作为核心议题，并强调制定明确计划。这一呼吁反映了当前AI技术快速发展带来的安全担忧。随着AI在医疗、金融、交通等领域的广泛应用，其潜在风险也逐渐凸显，如数据泄露、算法偏见等。对于初学者来说，这提示了AI安全与伦理的重要性，有助于培养负责任的人工智能人才。对行业而言，这意味着需要更加重视安全规范，如加强数据保护、确保算法透明度等。对普通用户而言，则提醒了AI技术可能带来的影响，如隐私侵犯、就业变革等。目前，关于AI安全的局限、争议和不确定性依然存在，例如AI决策的不可解释性、AI伦理标准的缺失等，这些问题需要进一步探讨和解决。\"\n}",
+      "points": [
+        "奥巴马提出民主党应将AI安全作为核心议题",
+        "AI技术快速发展引发安全担忧",
+        "初学者需关注AI安全与伦理问题",
+        "行业需重视AI安全规范",
+        "用户需了解AI技术可能带来的影响"
+      ],
+      "quotes": [
+        {
+          "text": "民主党应将人工智能安全纳入核心议题，并强调应制定明确计划。",
+          "note": "奥巴马强调AI安全的重要性"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "entities": {
+        "companies": [
+          "民主党"
+        ],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "政策监管",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解AI安全的基本概念和伦理问题",
+        "do": "关注AI安全相关的新闻和讨论"
+      },
+      "link": "/news/2026-09-14-obama-urges-democrats-to-have-a-clear-pl.html",
+      "generatedAt": "2026-09-14T08:34:26+08:00"
+    },
+    {
+      "id": "2026-09-14-there-is-no-ai-it-s-just-people-with-jar",
+      "title": "Lanier：所谓的AI只是人类行为",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-14T08:22:33+08:00",
+      "summary": "科技思想家Jaron Lanier提出AI是人类行为体现的观点。",
+      "detail": "著名科技思想家Jaron Lanier近日在Hacker News发表观点，认为当前所谓的AI并非独立存在，而是人类行为的体现。这一观点在人工智能迅速发展的背景下引发广泛关注。Lanier强调，AI的发展离不开人类的设计和引导，这一观点对AI初学者理解AI本质、参与AI研究和应用具有重要意义。目前，AI领域存在对AI本质的争议，部分人认为AI具有独立思考能力，而Lanier则认为这只是人类行为的延伸。",
+      "points": [
+        "Jaron Lanier在Hacker News提出AI是人类行为体现的观点。",
+        "Lanier的观点在AI迅速发展背景下引发关注。",
+        "Lanier强调AI发展依赖人类设计和引导。",
+        "Lanier的观点对AI初学者理解AI本质有重要意义。",
+        "AI领域存在对AI本质的争议。",
+        "Lanier认为AI只是人类行为的延伸，而非独立存在。"
+      ],
+      "quotes": [
+        {
+          "text": "所谓的AI并非独立存在，而是人类行为的体现。",
+          "note": "Lanier的核心观点，强调AI的本质。"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+      "entities": {
+        "companies": [],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "AI哲学",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解AI的本质和人类在AI发展中的作用。",
+        "do": "阅读更多关于AI哲学的文章，参与相关讨论。"
+      },
+      "link": "/news/2026-09-14-there-is-no-ai-it-s-just-people-with-jar.html",
+      "generatedAt": "2026-09-14T08:35:23+08:00"
+    },
+    {
+      "id": "2026-09-14-trump-and-mike-johnson-think-the-ai-indu",
+      "title": "特朗普和Mike Johnson认为AI行业反应过度",
+      "source": "The Verge AI",
+      "publishedAt": "2026-09-14T08:22:33+08:00",
+      "summary": "Anthropic CEO 呼吁放慢AI发展，特朗普和Mike Johnson认为反应过度。",
+      "detail": "{\n  \"Anthropic CEO Dario Amodei 发表公开信，建议放慢AI发展以规避风险，这一事件发生在AI技术迅速发展的背景下，特别是在大型语言模型如GPT-3等取得突破性进展之后。特朗普和Mike Johnson 反对此观点，认为AI发展对初学者有益，应鼓励创新，这反映了AI行业内部对于技术进步与风险防范的不同立场。对行业而言，这一争议意味着需要在追求技术突破的同时，确保AI的安全性和可控性；对普通用户和初学者来说，这则意味着AI技术将更加普及，但同时也需要关注其可能带来的潜在风险。目前，AI行业在如何平衡创新与风险、如何确保AI技术的透明度和可解释性等方面还存在局限和争议，例如AI的偏见问题、数据隐私保护等。\"\n}",
+      "points": [
+        "Anthropic CEO 呼吁放慢AI发展步伐。",
+        "特朗普和Mike Johnson 认为AI行业反应过度。",
+        "AI发展对初学者具有重要意义。",
+        "AI发展速度与安全引发公众关注。",
+        "在技术进步中需权衡风险与机遇。"
+      ],
+      "quotes": [
+        {
+          "text": "Anthropic CEO Dario Amodei 发表公开信，呼吁放慢AI发展步伐。",
+          "note": "Amodei 的担忧反映了AI行业对潜在风险的担忧。"
+        },
+        {
+          "text": "特朗普和Mike Johnson 表示，AI行业的反应过度。",
+          "note": "特朗普和Johnson 强调了创新在AI发展中的重要性。"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "行业动态",
+        "AI发展",
+        "研究进展"
+      ],
+      "advice": {
+        "learn": "了解AI发展的潜在风险与机遇。",
+        "do": "关注AI行业动态，思考AI技术如何影响日常生活。"
+      },
+      "link": "/news/2026-09-14-trump-and-mike-johnson-think-the-ai-indu.html",
+      "generatedAt": "2026-09-14T08:36:43+08:00"
+    },
+    {
+      "id": "2026-09-14-what-s-behind-the-ai-industry-s-latest-w",
+      "title": "AI行业最新末日预警背后的原因是什么？",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-09-14T08:22:33+08:00",
+      "summary": "AI行业热议其是否构成生存威胁，探讨原因。",
+      "detail": "近期，AI行业引发关于其是否构成生存威胁的激烈辩论。这一现象背后，一方面是因为AI技术发展速度之快，从智能制造到医疗健康，其广泛应用深刻改变了我们的生活。另一方面，人们对AI技术潜在影响的担忧日益加剧。AI技术的快速发展，使得伦理、就业、隐私等问题成为公众关注的焦点。对于初学者来说，了解这些背景知识有助于全面认识AI技术。\n\n从行业背景来看，AI技术的快速发展使得相关产业竞争日益激烈，同时也引发了关于AI技术是否会导致大规模失业的担忧。对于行业来说，这意味着需要更加关注AI技术的伦理使用，以及如何确保其在各个领域的健康发展。\n\n对于普通用户和初学者而言，AI技术的广泛应用意味着生活将变得更加便捷，但也需要警惕其可能带来的风险。例如，AI技术在医疗健康领域的应用，虽然可以提高诊断准确率，但也可能引发隐私泄露等问题。\n\n目前，争议主要集中在AI技术对就业市场的潜在影响以及如何确保AI的伦理使用。一方面，AI技术的发展可能导致某些工作岗位的消失，但同时也会创造新的就业机会。另一方面，如何确保AI技术在伦理方面的合规性，避免其被滥用，成为了一个亟待解决的问题。\n\n此外，AI技术的局限性也值得关注。例如，AI技术在处理复杂问题时可能存在偏差，而且其决策过程往往不够透明。这些问题都需要在未来的发展中得到解决。",
+      "points": [
+        "AI行业热议其是否构成生存威胁，引发激烈辩论。",
+        "担忧AI技术发展速度和潜在影响，广泛应用引发伦理、就业、隐私等问题。",
+        "AI技术广泛应用，从智能制造到医疗健康，深刻改变生活。",
+        "对初学者，了解AI背景知识有助于全面认识AI技术。",
+        "争议集中在AI技术对就业市场的潜在影响以及伦理使用。"
+      ],
+      "quotes": [
+        {
+          "text": "近期，AI行业再次引发关于其是否构成生存威胁的激烈辩论。",
+          "note": "点明事件本身，强调行业热议。"
+        },
+        {
+          "text": "这一讨论背后，主要原因是人们对AI技术发展速度和潜在影响的担忧。",
+          "note": "揭示辩论背后的原因，强调担忧。"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "entities": {
+        "companies": [
+          "TechCrunch AI"
+        ],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "行业动态",
+        "AI风险"
+      ],
+      "advice": {
+        "learn": "了解AI技术发展及其带来的伦理和就业问题。",
+        "do": "研究AI技术在不同领域的应用案例，思考其对社会的影响。"
+      },
+      "link": "/news/2026-09-14-what-s-behind-the-ai-industry-s-latest-w.html",
+      "generatedAt": "2026-09-14T08:38:14+08:00"
+    },
+    {
+      "id": "2026-09-14-ai-recursive-self-improvement-might-not",
+      "title": "AI自我提升进展缓慢",
+      "source": "Hacker News",
+      "publishedAt": "2026-09-14T08:22:04+08:00",
+      "summary": "AI递归自我提升进展缓慢，引发对AI发展速度的讨论。",
+      "detail": "{\n  \"正文\": \"研究人员指出，AI通过自我学习和优化来提高自身能力的递归自我提升可能不会很快实现。这一发现引发了关于AI发展速度的讨论。随着深度学习等技术的成熟，AI递归自我提升的研究已经进入了一个新的阶段，但实际进展却不如预期。AI递归自我提升的缓慢进展可能源于技术难题或资源限制，例如算法的复杂性和计算资源的不足。对于普通用户来说，这意味着AI的发展可能比预期的要慢，需要耐心等待。对于AI行业来说，这一进展可能意味着研发周期和成本的增加，同时也可能促使行业更加关注基础研究和算法优化。目前，这一进展对AI行业和用户都带来了一定的影响，但具体影响还需进一步观察。例如，AI在特定领域的应用可能受到限制，而用户对于AI的期待可能需要调整。此外，关于AI递归自我提升的局限性和争议仍然存在，例如其是否能够真正实现自我提升，以及如何确保其安全性和可控性等问题。\"\n}",
+      "points": [
+        "AI递归自我提升可能不会很快实现，引发对AI发展速度的讨论。",
+        "AI递归自我提升的缓慢进展可能源于技术难题或资源限制。",
+        "对普通用户来说，AI的发展可能比预期的要慢，需要耐心等待。",
+        "这一进展对AI行业和用户都带来了一定的影响。",
+        "具体影响还需进一步观察，目前尚无明确结论。"
+      ],
+      "quotes": [
+        {
+          "text": "AI recursive self-improvement might not come so quickly after all",
+          "note": "指出AI递归自我提升可能不会很快实现。"
+        }
+      ],
+      "image": "/covers/news/research.svg",
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "entities": {
+        "companies": [],
+        "models": [],
+        "tools": []
+      },
+      "tags": [
+        "研究进展",
+        "行业动态",
+        "产品发布"
+      ],
+      "advice": {
+        "learn": "了解AI递归自我提升的概念及其对AI发展的影响。",
+        "do": "关注AI领域的最新研究，了解AI技术的实际进展。"
+      },
+      "link": "/news/2026-09-14-ai-recursive-self-improvement-might-not.html",
+      "generatedAt": "2026-09-14T08:32:42+08:00"
+    },
+    {
+      "id": "2026-09-14-freecore-truenas-衍生分支-在-freebsd-系统上维护与之深",
+      "title": "FreeCORE系统功能介绍",
+      "source": "InfoQ 中文",
+      "publishedAt": "2026-09-14T08:22:04+08:00",
+      "summary": "FreeCORE系统整合虚拟化、容器与文件系统，提升数据管理效率。",
+      "detail": "FreeCORE系统作为TrueNAS的衍生分支，在FreeBSD系统上实现了虚拟化、Jails容器与OpenZFS文件系统的深度整合。这一系统通过提供高效的虚拟化和容器技术，使用户能够更便捷地管理数据。对于AI初学者而言，了解FreeCORE系统有助于理解数据管理在AI应用中的重要性。FreeCORE系统的推出，反映了开源存储解决方案在虚拟化和容器技术领域的持续发展。对于行业而言，它可能意味着更广泛的应用场景和更高的数据管理效率。然而，目前关于FreeCORE系统的具体性能和适用性仍存在一定的不确定性。",
+      "points": [
+        "FreeCORE系统整合了虚拟化、容器与文件系统，提供高效的数据管理解决方案。",
+        "FreeBSD系统作为基础，为FreeCORE提供了稳定的平台。",
+        "深度整合功能简化了虚拟化和容器化环境的管理。",
+        "FreeCORE系统可能推动开源存储解决方案在虚拟化和容器技术领域的进一步发展。",
+        "AI初学者可通过研究FreeCORE系统了解数据管理在AI应用中的重要性。",
+        "FreeCORE系统的具体性能和适用性仍需进一步验证。"
+      ],
+      "quotes": [
+        {
+          "text": "FreeCORE系统是TrueNAS的衍生分支，提供了虚拟化、容器和文件系统的深度整合。",
+          "note": "这句话概括了FreeCORE系统的核心功能和特点。"
+        }
+      ],
+      "image": "/covers/news/chip.svg",
+      "url": "https://www.infoq.cn/article/TDav5ojS854dZKyfJmhI?utm_source=rss&utm_medium=article",
+      "entities": {
+        "companies": [
+          "TrueNAS"
+        ],
+        "models": [],
+        "tools": [
+          "FreeCORE系统"
+        ]
+      },
+      "tags": [
+        "开源",
+        "硬件终端",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解FreeBSD系统和OpenZFS文件系统的基本概念。",
+        "do": "研究FreeCORE系统的架构和功能，尝试理解其在数据管理中的应用。"
+      },
+      "link": "/news/2026-09-14-freecore-truenas-衍生分支-在-freebsd-系统上维护与之深.html",
+      "generatedAt": "2026-09-14T08:33:18+08:00"
+    },
+    {
+      "id": "2026-09-14-perplexity-trusts-gpt-6-astra-with-end-t",
+      "title": "Perplexity信任GPT-6 Astra全流程系统",
+      "source": "OpenAI Blog",
+      "publishedAt": "2026-09-12T09:06:36+08:00",
+      "summary": "Perplexity采用GPT-6 Astra构建全流程系统，提升工作效率。",
+      "detail": "①知名AI公司Perplexity近日宣布，成功利用GPT-6 Astra技术构建全流程系统，应用于撰写通讯、修改软件和监控系统。②GPT-6 Astra具备强大的自然语言处理能力，为初学者提供便捷的AI应用平台。③此举标志着Perplexity在AI领域的深入探索，对行业而言，意味着AI技术在商业应用上的进一步拓展；对用户而言，意味着更高效的工作体验。④目前，该系统的实际应用效果和长期稳定性尚待市场检验。",
+      "points": [
+        "Perplexity宣布采用GPT-6 Astra构建全流程系统",
+        "GPT-6 Astra具备强大的自然语言处理能力",
+        "Perplexity在AI领域的深入探索，拓展AI商业应用",
+        "用户将获得更高效的工作体验",
+        "系统应用效果和稳定性待市场检验"
+      ],
+      "quotes": [
+        {
+          "text": "Perplexity采用GPT-6 Astra构建了一款全流程系统，用于撰写通讯、修改软件和监控系统，提升工作效率。",
+          "note": "此句概括了Perplexity采用GPT-6 Astra构建全流程系统的核心应用场景和目的。"
+        },
+        {
+          "text": "GPT-6 Astra作为新一代AI技术，具有强大的自然语言处理能力，为初学者提供了便捷的AI应用平台。",
+          "note": "强调了GPT-6 Astra的技术特点和用户友好性。"
+        }
+      ],
+      "image": "/covers/news/policy.svg",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "entities": {
+        "companies": [
+          "Perplexity",
+          "OpenAI"
+        ],
+        "models": [
+          "GPT-6 Astra"
+        ],
+        "tools": [
+          "全流程系统"
+        ]
+      },
+      "tags": [
+        "模型发布",
+        "AI编程",
+        "行业动态"
+      ],
+      "advice": {
+        "learn": "了解GPT-6 Astra的自然语言处理能力及其在AI应用中的优势",
+        "do": "研究Perplexity全流程系统的应用案例，思考AI技术如何提升工作效率"
+      },
+      "link": "/news/2026-09-14-perplexity-trusts-gpt-6-astra-with-end-t.html",
+      "generatedAt": "2026-09-12T09:17:06+08:00"
+    }
+  ],
+  "updatedAt": "2026-09-16T08:56:34+08:00"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cl-kb",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CL 的个人 AI 知识库",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "content": "node tools/build-content.mjs && node tools/build-kb-index.mjs",
+    "start": "VP_BASE=/ vitepress build docs && vitepress preview docs --port $PORT --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

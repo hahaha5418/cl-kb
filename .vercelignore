@@ -1,0 +1,11 @@
+# Vercel 部署时【不要】上传这些（它们只是本地缓存/镜像，云端会自行重建）
+node_modules
+.scratch
+web
+publish
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/.temp
+*.log
+.vercel
+.env*

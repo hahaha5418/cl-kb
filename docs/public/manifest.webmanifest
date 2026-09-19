@@ -1,0 +1,20 @@
+{
+  "name": "CL · 个人 AI 知识库",
+  "short_name": "CL 知识库",
+  "description": "零基础也能每天学一点 AI：术语、路径、工具、热点、视频教程与小工具。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

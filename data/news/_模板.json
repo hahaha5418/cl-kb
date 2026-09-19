@@ -1,0 +1,45 @@
+{
+  "date": "YYYY-MM-DD",
+  "items": [
+    {
+      "id": "YYYY-MM-DD-英文短横线标识",
+      "title": "标题（中文）",
+      "source": "来源，如 OpenAI 官网 / Anthropic / 量子位 / TechCrunch",
+      "publishedAt": "2026-09-10T08:30:00+08:00",
+      "summary": "一句话摘要，30-50 字，讲清谁做了什么",
+      "detail": "详细摘要，200-500 字：背景、做了什么、为什么重要、对普通人的影响",
+      "points": [
+        "关键要点 1（15-40 字）",
+        "关键要点 2",
+        "关键要点 3"
+      ],
+      "quotes": [
+        {
+          "text": "原文关键句",
+          "note": "这句为什么重要"
+        }
+      ],
+      "image": "/covers/news/default.svg",
+      "url": "https://原文链接",
+      "entities": {
+        "companies": [
+          "公司名"
+        ],
+        "models": [
+          "模型名"
+        ],
+        "tools": [
+          "工具名"
+        ]
+      },
+      "tags": [
+        "模型发布"
+      ],
+      "advice": {
+        "learn": "今天应该弄懂的一个概念",
+        "do": "今天可以做的一个具体动作"
+      },
+      "link": ""
+    }
+  ]
+}

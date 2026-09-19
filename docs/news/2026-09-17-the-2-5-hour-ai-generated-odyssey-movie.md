@@ -1,0 +1,62 @@
+---
+title: "AI生成《奥德赛》电影过长引关注"
+date: "2026-09-17"
+source: "The Verge AI"
+tag: "行业"
+url: "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
+auto: true
+title_en: "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long"
+summary_zh: "AI生成2.5小时《奥德赛》电影过长，引发观众和业界讨论"
+tags: "视频生成、行业动态、研究进展"
+ai: true
+tip: "想了解AI电影？看看这个AI生成的《奥德赛》！"
+updated: "2026-09-17T09:01:14+08:00"
+cover: "/covers/news/video.svg"
+rich: true
+---
+<img class="cl-article-cover" src="/covers/news/video.svg" alt="主题示意图" loading="lazy">
+
+<div class="cl-meta">
+  <span class="cl-time" data-ts="2026-09-17T09:01:14+08:00">🕒 10 分钟前更新</span>
+  <span class="cl-meta-item">📰 The Verge AI</span>
+  <span class="cl-meta-item">🏷️ 视频生成、行业动态、研究进展</span>
+  <span class="cl-meta-item">⏱ 约 1 分钟读完</span>
+</div>
+
+# AI生成《奥德赛》电影过长引关注
+
+## 一句话看懂
+
+AI技术生成了一部时长2.5小时的《奥德赛》电影，引发了观众和业界的关注。**AI生成电影** 的出现，展示了AI在内容创作领域的潜力，同时也引发了关于电影时长和观众体验的讨论。
+
+## 核心要点
+
+1. **AI** 生成了一部 **2.5小时** 的《奥德赛》电影
+2. **引发观众和业界讨论**
+3. **展示AI在内容创作领域的潜力**
+
+## 详细解读
+
+AI在内容创作领域的应用越来越广泛，从音乐到电影，AI正在改变我们的娱乐方式。
+
+这部电影的长度引发了关于AI生成内容是否应该遵循传统电影时长的讨论。
+
+## 为什么值得关注
+
+对于AI初学者来说，这表明AI在内容创作领域有着巨大的潜力，值得进一步探索。
+
+> 💡 **初学者可以怎么做**
+>
+> 可以搜索AI在内容创作领域的应用案例，了解AI如何改变我们的娱乐方式。
+> 想了解AI电影？看看这个AI生成的《奥德赛》！
+
+<details>
+<summary>原始出处（无需跳转外网）</summary>
+
+- 原标题：The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long
+- 来源：The Verge AI
+- 发布日期：2026-09-17
+- 原始链接（纯文本，不可点击）：`https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review`
+
+> 本页正文由 AI 在站内自动总结生成，**无需访问外网即可完整阅读**。
+</details>
