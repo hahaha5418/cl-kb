@@ -1,0 +1,84 @@
+name: 每日自动更新并部署
+
+# 触发：每天北京时间 07:00 自动跑；也可在 Actions 页面点 “Run workflow” 手动跑一次
+on:
+  schedule:
+    - cron: '0 23 * * *'   # UTC 23:00 = 北京时间 07:00
+  workflow_dispatch:
+
+# 需要把新抓取的热点写回仓库，所以给 contents: write
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      # 智谱 GLM-4-Flash（免费、国内可访问）。没配就自动跳过 AI，只抓原文
+      ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 安装依赖
+        run: npm install
+
+      # 1) 抓取最新 AI 新闻（RSS，超时/429 都自动降级，不会卡死）
+      - name: 抓取每日热点
+        run: python scripts/fetch_news.py
+
+      # 2) AI 生成中文摘要 / 标签 / 今日任务 / 初学者建议（无 Key 自动跳过）
+      - name: AI 增强（摘要·标签·任务·建议）
+        run: python scripts/ai_enrich.py all
+
+      # 3) 生成 12 字段热点详情库 data/news/YYYY-MM-DD.json
+      - name: 生成热点详情库
+        run: python scripts/news_library.py gen --days 3
+
+      # 4) 重新生成索引 / 学习进度 / 双向关联图谱 / RAG 知识库索引
+      - name: 生成站点索引
+        run: npm run content
+
+      # 5) 把新数据提交回仓库，保留历史，下次运行才有对比
+      - name: 提交数据更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/news docs/today.md docs/public data/news scripts/state.json
+          if git diff --staged --quiet; then
+            echo "今天没有新内容，跳过提交"
+          else
+            git commit -m "每日热点更新 $(TZ=Asia/Shanghai date +'%Y-%m-%d')"
+            git push
+          fi
+
+      # 6) 部署到 Vercel（全球 CDN，永久在线，网址不变）
+      #    - vercel.json 已设定构建命令，会自动跑 npm run content + 构建
+      #    - RAG 函数 api/ask.mjs 随仓库根目录一起部署，自动生效
+      #    仓库 Settings → Secrets 里配：VERCEL_TOKEN / VERCEL_ORG_ID / VERCEL_PROJECT_ID
+      #    Vercel 项目 Environment Variables 里配：ZHIPU_API_KEY / VP_BASE=/
+      - name: 部署到 Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: .
+          vercel-args: '--prod'
