@@ -12,7 +12,7 @@ cover: "/covers/news/llm.svg"
 <img class="cl-article-cover" src="/covers/news/llm.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-09-20T07:06:27+08:00">🕒 1 天前更新</span>
+  <span class="cl-time" data-ts="2026-09-20T07:06:27+08:00">🕒 2 天前更新</span>
   <span class="cl-meta-item">📰 **Google** AI Blog</span>
   <span class="cl-meta-item">🏷️ **Gemini**</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>
