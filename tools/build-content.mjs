@@ -495,6 +495,52 @@ function buildGrouped(folder, title, defaultEmoji, intro) {
     video: '视频教程', notes: '我的笔记', utils: '小工具'
   }
 
+  /* 顶层单文件（search.md / today.md …）不该把文件名当分类显示 */
+  const FILE_LABEL = {
+    index: '首页', guide: '新手指南', search: '搜索', today: '今日冲刺',
+    'time-engine': '时光引擎', blindbox: 'AI 盲盒', skilltree: '技能树',
+    media: '媒体库', '404': '页面'
+  }
+
+  /* ---------- 查询意图展开（构建期，写进索引的 kw 字段） ----------
+     目的：输入「写代码」时，除了标题里真的含这三个字的文章，
+     还能命中「AI 编程教程」「Agent 相关内容」这类**语义相近的常青内容**，
+     而不是只靠标题字面匹配。
+     只在「常青板块」上展开，避免 500+ 条每日热点被灌进结果里喧宾夺主。 */
+  const CURATED = ['AI 实操', '工具库', '学习路径', '术语词典', '场景应用', '视频教程', '小工具']
+  const SEARCH_INTENTS = [
+    { q: ['写代码', '编程', '代码', '写程序', '写脚本', '开发', '程序员', 'coding', 'vibe coding'],
+      h: ['编程', '代码', 'code', 'coding', 'copilot', 'cursor', 'codex', '程序', '脚本', 'agent', '智能体', '开发'] },
+    { q: ['agent', '智能体', 'ai agent', '智能代理', '多智能体', 'agent开发'],
+      h: ['agent', '智能体', '智能代理', '多智能体'] },
+    { q: ['做视频', '视频', '剪辑', '短视频', '视频生成'],
+      h: ['视频', '剪辑', 'video', '配音', '数字人'] },
+    { q: ['画图', '绘图', '做图', '生图', '出图', 'ai绘画', '图像生成'],
+      h: ['图像', '绘画', '画图', '绘图', '生图', 'image', 'midjourney', 'stable diffusion'] },
+    { q: ['写文章', '写作', '写文案', '写论文', '写邮件'],
+      h: ['写作', '文案', '文章', 'writing', '论文', '邮件'] },
+    { q: ['ppt', '做ppt', '做表格', 'excel', '办公', '文档', '做汇报'],
+      h: ['ppt', 'excel', '办公', '文档', '表格', '演示', 'office', 'gamma'] },
+    { q: ['查资料', '搜资料', '做研究', '检索', '找信息'],
+      h: ['搜索', '检索', '研究', '资料', 'search', 'rag', '知识库'] },
+    { q: ['自动化', '工作流', '提效', '效率', '定时任务'],
+      h: ['自动化', '工作流', '流程', '定时', 'workflow', 'n8n', 'dify', 'coze', 'agent'] },
+    { q: ['提示词', 'prompt', '写提示词'],
+      h: ['提示词', 'prompt', '指令'] },
+    { q: ['入门', '新手', '零基础', '怎么学', '怎么开始', '学习路线'],
+      h: ['入门', '新手', '零基础', '学习', '基础', '起步'] },
+    { q: ['知识库', 'rag', '问答', '数字员工'],
+      h: ['知识库', 'rag', '问答', '检索', 'embedding', '向量'] }
+  ]
+  function intentsFor(cat, hay) {
+    if (!CURATED.includes(cat)) return []
+    const kws = []
+    for (const it of SEARCH_INTENTS) {
+      if (it.h.some((k) => hay.includes(k))) kws.push(...it.q)
+    }
+    return [...new Set(kws)].slice(0, 24)
+  }
+
   const out = []
   function walk(dir, rel) {
     if (!fs.existsSync(dir)) return
@@ -529,19 +575,23 @@ function buildGrouped(folder, title, defaultEmoji, intro) {
         || (body.match(/^#\s+(.+)$/m) || [, ''])[1]
         || path.basename(f, '.md')
       const top = relp.split('/')[0]
-      const cat = FOLDER_LABEL[top] || (top || '首页')
+      const cat = FOLDER_LABEL[top]
+        || (relp.includes('/') ? (top || '首页') : (FILE_LABEL[path.basename(f, '.md')] || '首页'))
       const tags = []
       if (d.tag) tags.push(String(d.tag))
       if (d.tags) tags.push(String(d.tags))
       if (d.category) tags.push(String(d.category))
       if (d.en) tags.push(String(d.en))
+      const descRaw = (d.desc || d.summary || '').toString().slice(0, 120)
+      const hay = [title, cat, tags.join(' '), descRaw].join(' ').toLowerCase()
       out.push({
         title: title.trim(),
         url,
         category: cat,
         tags: [...new Set(tags)].slice(0, 6),
-        desc: (d.desc || d.summary || '').toString().slice(0, 120),
-        text: body.slice(0, 240)
+        desc: descRaw,
+        text: body.slice(0, 240),
+        kw: intentsFor(cat, hay)
       })
     }
   }
@@ -1038,20 +1088,27 @@ function todayStr() {
 
   // 概念词典：key(小写) -> Set(别名小写)
   const conceptMap = new Map()
+  const conceptDisplay = new Map()   // key(小写) -> 展示名（首次注册的原样 key）
+  const conceptGlossary = new Map()  // key(小写) -> 术语页 url（命中术语词典的概念可直达）
   const addConcept = (key, aliases) => {
     const k = String(key).trim().toLowerCase()
     if (!k) return
+    if (!conceptDisplay.has(k)) conceptDisplay.set(k, String(key).trim())
     if (!conceptMap.has(k)) conceptMap.set(k, new Set())
     ;[key, ...(aliases || [])].forEach((a) => {
       const s = String(a).trim().toLowerCase()
       if (s) conceptMap.get(k).add(s)
     })
   }
-  // 来自术语词典
+  // 来自术语词典（记录术语页回链：网页上点概念 → 直达术语解释）
   for (const { fp } of walkMd(path.join(DOCS, 'glossary'), '')) {
     const d = readFM(fp)
-    if (d.en) addConcept(d.en, [d.en, d.title || ''])
-    if (d.title) addConcept(d.title, [d.title, d.en || ''])
+    const relPosix = (() => {
+      const rel = path.relative(path.join(DOCS, 'glossary'), fp).split(path.sep).join('/')
+      return '/glossary/' + rel.replace(/\.md$/, '.html')
+    })()
+    if (d.en) { addConcept(d.en, [d.en, d.title || '']); conceptGlossary.set(String(d.en).toLowerCase(), relPosix) }
+    if (d.title) { addConcept(d.title, [d.title, d.en || '']); conceptGlossary.set(String(d.title).toLowerCase(), relPosix) }
     if (d.category) addConcept(d.category, [d.category])
   }
   // 跨板块常见概念（保证术语⇄实操⇄热点能连上）
@@ -1091,6 +1148,19 @@ function todayStr() {
   }
   for (const [k, al] of Object.entries(curated)) addConcept(k, al)
 
+  /* 同义概念去重：一页同时命中「Agent / 智能体 / AI 智能体」这类
+     别名重叠的概念时，只保留别名集最大的那个（有术语页的优先）。 */
+  function dedupeConcepts(keys) {
+    const ks = [...new Set(keys)]
+    const aliasSet = (k) => conceptMap.get(k) || new Set()
+    const score = (k) => aliasSet(k).size * 10 + (conceptGlossary.has(k) ? 1 : 0)
+    return ks.filter((k) => {
+      const s = aliasSet(k)
+      return !ks.some((o) => o !== k && s.size > 0 && [...s].every((a) => aliasSet(o).has(a)) &&
+        (aliasSet(o).size > s.size || (aliasSet(o).size === s.size && score(o) > score(k))))
+    })
+  }
+
   function detect(text) {
     const low = String(text || '').toLowerCase()
     const found = []
@@ -1113,7 +1183,7 @@ function todayStr() {
       const title = d.title || path.basename(relPosix, '.md')
       const text = [d.title, d.desc, d.tag, d.tags, d.category, d.en, d.summary, bodyText(fp)]
         .filter(Boolean).join(' ')
-      nodes.push({ type: folder, title, url, concepts: detect(text) })
+      nodes.push({ type: folder, title, url, concepts: dedupeConcepts(detect(text)) })
     }
   }
   // 热点：按日期聚合 data/news/*.json 的标签与标题
@@ -1128,26 +1198,78 @@ function todayStr() {
       if (!items.length) continue
       const text = items.map((it) =>
         [it.title, it.summary, it.detail, (it.tags || []).join(' '), (it.tag || '')].join(' ')).join(' ')
-      nodes.push({ type: 'news', title: date + ' 每日热点', url: '/news/' + date + '.html', concepts: detect(text) })
+      nodes.push({ type: 'news', title: date + ' 每日热点', url: '/news/' + date + '.html', concepts: dedupeConcepts(detect(text)) })
     }
   }
 
-  // 计算每节点的「跨板块」相关项（共享概念数降序，取前 6）
+  // 计算每节点的「跨板块」相关项。
+  // 按类型分桶 + 轮转取样（bucket round-robin），保证「热点 / 术语 / 工具」三类
+  // 都有机会出现在页面底部（此前纯按 shared 降序取 6 条，常被单一板块霸屏）。
+  const RELATED_TOTAL = 9
   const byUrl = {}
   for (const node of nodes) {
     const set = new Set(node.concepts)
-    const related = nodes
+    const cands = nodes
       .filter((o) => o.url !== node.url && o.type !== node.type && o.concepts.some((c) => set.has(c)))
       .map((o) => ({ shared: o.concepts.filter((c) => set.has(c)).length, o }))
       .sort((a, b) => b.shared - a.shared)
-      .slice(0, 6)
+    // 按类型分桶（桶内已按相关度降序）
+    const buckets = new Map()
+    for (const c of cands) {
+      if (!buckets.has(c.o.type)) buckets.set(c.o.type, [])
+      buckets.get(c.o.type).push(c)
+    }
+    // 轮转取样：每轮从各桶各取 1 条，直到凑满 RELATED_TOTAL
+    const picked = []
+    const iters = [...buckets.values()]
+    for (let round = 0; picked.length < RELATED_TOTAL && iters.some((b) => b.length); round++) {
+      for (const b of iters) {
+        if (picked.length >= RELATED_TOTAL) break
+        const c = b.shift()
+        if (c) picked.push(c)
+      }
+    }
+    const related = picked
       .map((x) => ({ title: x.o.title, url: x.o.url, type: x.o.type, label: TYPE_LABEL[x.o.type] }))
     byUrl[node.url] = { title: node.title, type: node.type, concepts: node.concepts, related }
   }
 
-  fs.writeFileSync(path.join(PUBLIC, 'links-graph.json'), JSON.stringify({ byUrl }), 'utf8')
+  /* —— 深度关联：实体倒排索引（概念 → 全站出现它的页面）——
+     每页再带 relatedConcepts：本页概念按「全站覆盖面」排序，
+     术语词典里有的直达术语页，没有的跳全站搜索。 */
+  const conceptsIndex = {}
+  for (const node of nodes) {
+    for (const c of node.concepts) {
+      if (!conceptsIndex[c]) conceptsIndex[c] = { label: conceptDisplay.get(c) || c, total: 0, pages: [] }
+      conceptsIndex[c].total += 1
+      conceptsIndex[c].pages.push({ url: node.url, title: node.title, type: node.type })
+    }
+  }
+  for (const c of Object.keys(conceptsIndex)) {
+    conceptsIndex[c].glossaryUrl = conceptGlossary.get(c) || null
+    // 索引页价值低，放最后；截断 30 条控体积
+    conceptsIndex[c].pages.sort((a, b) => Number(b.url.endsWith('index.html')) - Number(a.url.endsWith('index.html')))
+    conceptsIndex[c].pages = conceptsIndex[c].pages.slice(0, 30)
+  }
+  for (const node of nodes) {
+    const meta = conceptsIndex
+    node.relatedConcepts = node.concepts
+      .map((c) => ({
+        label: meta[c].label,
+        total: meta[c].total,
+        url: meta[c].glossaryUrl || ('/search.html?q=' + encodeURIComponent(meta[c].label)),
+        hasGlossary: !!meta[c].glossaryUrl,
+      }))
+      .sort((a, b) => b.total - a.total)
+      .slice(0, 10)
+    if (byUrl[node.url]) byUrl[node.url].relatedConcepts = node.relatedConcepts
+  }
+
+  fs.writeFileSync(path.join(PUBLIC, 'links-graph.json'),
+    JSON.stringify({ byUrl, conceptsIndex }), 'utf8')
   const linked = Object.values(byUrl).filter((n) => n.related.length).length
-  console.log('关联图谱：' + nodes.length + ' 节点 / ' + linked + ' 个页面有跨板块关联')
+  const conceptCount = Object.keys(conceptsIndex).length
+  console.log('关联图谱：' + nodes.length + ' 节点 / ' + linked + ' 个页面有跨板块关联 / 实体 ' + conceptCount + ' 个')
 })();
 
 console.log('索引与进度生成完成');
