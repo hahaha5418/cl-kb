@@ -1,31 +1,31 @@
 ---
 title: "今日学习任务"
-date: "2026-09-22"
+date: "2026-09-23"
 ---
 
 # 今日学习任务
 
-> 2026-09-22 · 热点驱动自动生成（build_today_todo.py）
+> 2026-09-23 · 由脚本自动生成（AI 辅助）
 
-<div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日待办 · 从资讯到行动</span></div>
+<div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
-今天的热点集中在「用 AI 做一条视频」方向，别只看新闻——照着站内 5 步指南动手做一轮，15 分钟就能有第一个成果。
+先从建立提示词模板库开始吧，这能帮你快速上手，大概半小时就能完成。
 
 ## 今天做这几件事
 
-1. [看 5 步指南：用 AI 做一条视频（近8条热点都在说）](./scenes/hot-ai-video.md)　<sub>热点驱动 · 3 分钟</sub>
-2. [动手做：《用 AI 做一条视频》第 1-2 步，预计 15 分钟](./scenes/hot-ai-video.md)　<sub>今日任务</sub>
-3. [进阶选做：《让 AI 帮你写代码》第 1 步（8 条热点相关）](./scenes/hot-ai-code.md)　<sub>选做 · 10 分钟</sub>
+1. [搞懂 RAG 是什么，用它做一个个人知识问答](./path/stage-4/01-搞懂RAG是什么用它做一.md)　<sub>stage · 4</sub>
+1. [在 Coze 或 Dify 上搭第一个机器人](./path/stage-4/02-在Coze或Dify上搭.md)　<sub>stage · 4</sub>
+1. [用 n8n 或 Coze 做一个「每日 AI 新闻摘要」自动化](./path/stage-4/03-用n8n或Coze做一个.md)　<sub>stage · 4</sub>
 
 ## 今天值得看的新热点
 
-- [2026 East Forward出海大会：全球化到达下一站，中国企业如何走得更远](./news/2026-09-22-2026-east-forward出海大会-全球化到达下一站-中国企业如何走得更.md)　<sub>2026-09-22</sub>
-- [机器人具身未来，动作之外是挑战](./news/2026-09-22-70强项目观察之具身未来-机器人走进现实世界-关键不只是完成动作.md)　<sub>2026-09-22</sub>
-- [AI进入科学发现，验证答案之外](./news/2026-09-22-70强项目观察之前沿探索-ai进入科学发现-答案之外还要验证什么.md)　<sub>2026-09-22</sub>
-- [新智基座Agent转型](./news/2026-09-22-70强项目观察之新智基座-agent正在从-会聊-走向-会干活.md)　<sub>2026-09-22</sub>
-- [AI应用功能升级](./news/2026-09-22-70强项目观察之无界应用-ai应用正在从-有功能-走向-能完成任务.md)　<sub>2026-09-22</sub>
+- [Snorkel AI triples valuation to $3.5B as demand for AI training data booms](./news/2026-09-23-snorkel-ai-triples-valuation-to-3-5b-as.md)　<sub>2026-09-23</sub>
+- [OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes](./news/2026-09-23-openai-launches-gpt-6-sol-and-luna-boast.md)　<sub>2026-09-23</sub>
+- [Meta admits Muse’s likeness to OpenClaw isn’t a coincidence](./news/2026-09-23-meta-admits-muse-s-likeness-to-openclaw.md)　<sub>2026-09-23</sub>
+- [Introducing GPT-6 Sol and Luna](./news/2026-09-23-introducing-gpt-6-sol-and-luna.md)　<sub>2026-09-23</sub>
+- [Better prompt caching for GPT-6](./news/2026-09-23-better-prompt-caching-for-gpt-6.md)　<sub>2026-09-23</sub>
 
 ## 怎么打卡
 
-打开任务页，完成后到学习路径对应条目把 `done` 改成 `true` 即可；
-首页进度条会自动更新。断网也不用怕——本站支持 PWA 离线阅读。
+打开对应任务文件，把开头的 `done: false` 改成 `done: true` 并提交，
+[学习路径](./path/) 页面的进度条会自动更新。
