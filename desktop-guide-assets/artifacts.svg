@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect width="760" height="470" fill="#f6f8fa"/>
+  <text x="28" y="40" font-size="22" font-weight="700" fill="#1f2328">第 2 步：下载安装包（从 Artifacts）</text>
+
+  <!-- A -->
+  <rect x="28" y="80" width="180" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="118" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">① 点进最新一次</text>
+  <text x="118" y="138" font-size="13" fill="#1a7f37" text-anchor="middle">✅ 绿色对勾</text>
+  <text x="118" y="158" font-size="12" fill="#57606a" text-anchor="middle">的那次运行</text>
+
+  <path d="M214 128 L240 128" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- B -->
+  <rect x="250" y="80" width="180" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="340" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">② 滚到页面底部</text>
+  <text x="340" y="138" font-size="12" fill="#57606a" text-anchor="middle">找到 **Artifacts**</text>
+  <text x="340" y="158" font-size="12" fill="#57606a" text-anchor="middle">区域</text>
+
+  <path d="M436 128 L462 128" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- C -->
+  <rect x="472" y="80" width="180" height="96" rx="12" fill="#eaf3ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="562" y="112" font-size="15" font-weight="700" fill="#1f6feb" text-anchor="middle">③ 点 CL-KB-Windows</text>
+  <text x="562" y="138" font-size="12" fill="#1f2328" text-anchor="middle">就会下载一个</text>
+  <text x="562" y="158" font-size="12" fill="#1f2328" text-anchor="middle">.zip 压缩包</text>
+
+  <path d="M562 184 L562 230" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- D -->
+  <rect x="412" y="240" width="300" height="110" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="562" y="272" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">④ 解压 zip</text>
+  <text x="562" y="300" font-size="13" fill="#1f2328" text-anchor="middle">你会得到：</text>
+  <text x="562" y="326" font-size="13" fill="#1f6feb" text-anchor="middle" font-weight="700">CL-AI-KB_1.0.0_x64-setup.exe</text>
+
+  <text x="28" y="408" font-size="13" fill="#57606a">💡 如果没有 Artifacts：说明那次运行还没跑完（状态是 🟡 黄圈），等它变 ✅ 再回来下载。</text>
+
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#57606a"/>
+    </marker>
+  </defs>
+</svg>
