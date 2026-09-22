@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "CL-AI-KB",
+  "version": "1.0.0",
+  "identifier": "com.cl.knowledgebase",
+  "build": {
+    "frontendDist": "../docs/.vitepress/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "CL 的 AI 知识库",
+        "width": 1200,
+        "height": 820,
+        "minWidth": 480,
+        "minHeight": 640,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "msi"],
+    "icon": [
+      "icons/icon.ico",
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "downloadBootstrapper"
+      },
+      "nsis": {
+        "languages": ["SimpChinese", "English"],
+        "displayLanguageSelector": false,
+        "installMode": "currentUser"
+      }
+    }
+  }
+}
