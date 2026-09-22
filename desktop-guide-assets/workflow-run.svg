@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect width="760" height="470" fill="#f6f8fa"/>
+  <text x="28" y="40" font-size="22" font-weight="700" fill="#1f2328">第 1 步：触发云端打包（不用装任何软件）</text>
+
+  <!-- A -->
+  <rect x="28" y="80" width="180" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="118" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">① 打开仓库主页</text>
+  <text x="118" y="138" font-size="12" fill="#57606a" text-anchor="middle">github.com/</text>
+  <text x="118" y="156" font-size="12" fill="#57606a" text-anchor="middle">hahaha5418/cl-kb</text>
+
+  <!-- arrow -->
+  <path d="M214 128 L240 128" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- B -->
+  <rect x="250" y="80" width="180" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="340" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">② 点顶部「Actions」</text>
+  <text x="340" y="138" font-size="12" fill="#57606a" text-anchor="middle">仓库页面第二行菜单</text>
+  <text x="340" y="156" font-size="12" fill="#57606a" text-anchor="middle">里的 Actions 标签</text>
+
+  <path d="M436 128 L462 128" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- C -->
+  <rect x="472" y="80" width="180" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="562" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">③ 左侧选工作流</text>
+  <text x="562" y="138" font-size="12" fill="#57606a" text-anchor="middle">Build Desktop</text>
+  <text x="562" y="156" font-size="12" fill="#57606a" text-anchor="middle">(Windows)</text>
+
+  <!-- down arrow C->D -->
+  <path d="M562 184 L562 230" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- D -->
+  <rect x="412" y="240" width="300" height="120" rx="12" fill="#eaf3ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="562" y="272" font-size="15" font-weight="700" fill="#1f6feb" text-anchor="middle">④ 点绿色「Run workflow」</text>
+  <text x="562" y="300" font-size="12" fill="#1f2328" text-anchor="middle">右侧会弹出小窗 → 确认分支是 main</text>
+  <text x="562" y="320" font-size="12" fill="#1f2328" text-anchor="middle">→ 再点一次绿色 Run workflow</text>
+  <text x="562" y="344" font-size="12" fill="#1a7f37" text-anchor="middle">✅ 提交后云端开始编译（约 10–20 分钟）</text>
+
+  <text x="28" y="408" font-size="13" fill="#57606a">💡 不点也行：只要把代码 push 到 main 分支，打包会自动开始（看第 4 节说明）。</text>
+
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#57606a"/>
+    </marker>
+  </defs>
+</svg>
