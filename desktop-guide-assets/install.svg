@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect width="760" height="470" fill="#f6f8fa"/>
+  <text x="28" y="40" font-size="22" font-weight="700" fill="#1f2328">第 3 步：安装并打开</text>
+
+  <!-- A -->
+  <rect x="28" y="80" width="180" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="118" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">① 双击 setup.exe</text>
+  <text x="118" y="138" font-size="12" fill="#57606a" text-anchor="middle">刚才解压出来的</text>
+  <text x="118" y="158" font-size="12" fill="#57606a" text-anchor="middle">安装程序</text>
+
+  <path d="M214 128 L240 128" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- B -->
+  <rect x="250" y="80" width="200" height="96" rx="12" fill="#fff5e6" stroke="#bf8700" stroke-width="2"/>
+  <text x="350" y="112" font-size="15" font-weight="700" fill="#bf8700" text-anchor="middle">② SmartScreen 弹窗</text>
+  <text x="350" y="138" font-size="12" fill="#1f2328" text-anchor="middle">点「仍要运行」</text>
+  <text x="350" y="158" font-size="11" fill="#57606a" text-anchor="middle">（这是 Windows 正常提示，</text>
+  <text x="350" y="174" font-size="11" fill="#57606a" text-anchor="middle">软件没上微软商店才会有）</text>
+
+  <path d="M454 128 L480 128" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- C -->
+  <rect x="496" y="80" width="170" height="96" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="581" y="112" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">③ 安装向导</text>
+  <text x="581" y="138" font-size="12" fill="#57606a" text-anchor="middle">下一步 → 安装</text>
+  <text x="581" y="158" font-size="12" fill="#57606a" text-anchor="middle">→ 完成</text>
+
+  <path d="M581 184 L581 230" stroke="#57606a" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- D -->
+  <rect x="431" y="240" width="300" height="110" rx="12" fill="#eaf3ff" stroke="#1f6feb" stroke-width="2"/>
+  <text x="581" y="272" font-size="15" font-weight="700" fill="#1f6feb" text-anchor="middle">④ 打开软件</text>
+  <text x="581" y="300" font-size="13" fill="#1f2328" text-anchor="middle">桌面 / 开始菜单出现</text>
+  <text x="581" y="324" font-size="14" fill="#1f2328" text-anchor="middle" font-weight="700">CL-AI-KB 图标 → 双击打开</text>
+
+  <text x="28" y="408" font-size="13" fill="#57606a">💡 想用免安装版？zip 里还有一个 .msi（和 .exe 二选一）。双击 .exe 安装版最省事。</text>
+
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6 Z" fill="#57606a"/>
+    </marker>
+  </defs>
+</svg>
