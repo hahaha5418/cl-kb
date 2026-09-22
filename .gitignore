@@ -15,6 +15,15 @@ scripts/ai_config.json
 
 .vercel
 .env*
+# .env.example 是模板（不含真实 Key），必须入库，供他人参照
+!.env.example
+
+# 统一模型调用网关的运行日志（用量统计，不含 Key）
+logs/
 
 # Cloudflare 旧方案遗留(含 account_id)，不提交
 .cloudflare.json
+
+# Tauri 桌面版本地编译产物（云端 Actions 编译，不入库）
+src-tauri/target/
+src-tauri/gen/
