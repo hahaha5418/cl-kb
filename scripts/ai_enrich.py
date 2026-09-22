@@ -32,6 +32,9 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+# 「网页浏览」手脚：当热点内容太薄时，自动抓取原文全文交给大模型总结（绝不瞎编）
+from fetch_article import fetch_article
+
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 NEWS_DIR = DOCS / "news"
@@ -79,69 +82,14 @@ def dump_md(fm, body):
     return "\n".join(lines) + "\n" + body
 
 
-# ---------------- 调用大模型 ----------------
+# ---------------- 调用大模型：统一模型调用网关 ----------------
+# 供应商无关：通义千问 / 豆包 / DeepSeek / 智谱 / Kimi / OpenAI / 本地模型。
+# 密钥走环境变量（cl-kb/.env）或旧配置 scripts/ai_config.json；
+# 某家 Key 失效 / 欠费 / 限流时会自动切换到下一家，业务代码无需改动。
+# 详见 scripts/llm_gateway.py 与项目根目录 LLM-GATEWAY.md
 
-class AI:
-    def __init__(self, cfg):
-        self.cfg = cfg
-        self.key = (
-            os.environ.get("OPENAI_API_KEY")
-            or os.environ.get("AI_API_KEY")
-            or cfg.get("api_key")
-            or ""
-        )
-        base = (cfg.get("base_url") or "").lower()
-        self.local = ("localhost" in base) or ("127.0.0.1" in base)
-        # 本地模型（如 Ollama）不需要 Key；云端模型必须有 Key
-        self.enabled = bool(cfg.get("enabled", True)) and (bool(self.key) or self.local)
-
-    def call(self, prompt, system="你是一个简洁、准确的中文助手。", max_tokens=None):
-        if not self.enabled:
-            return None
-        url = self.cfg["base_url"].rstrip("/") + "/chat/completions"
-        payload = {
-            "model": self.cfg["model"],
-            "temperature": self.cfg.get("temperature", 0.3),
-            "max_tokens": max_tokens or self.cfg.get("max_tokens", 1500),
-            "messages": [
-                {"role": "system", "content": system},
-                {"role": "user", "content": prompt},
-            ],
-        }
-        headers = {"Content-Type": "application/json"}
-        if self.key:
-            headers["Authorization"] = "Bearer " + self.key
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
-            headers=headers,
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=90) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-            return data["choices"][0]["message"]["content"]
-        except Exception as e:
-            print(f"    [AI 调用失败] {type(e).__name__}: {e}")
-            return None
-
-    def json(self, prompt, system="你是一个简洁、准确的中文助手。只输出 JSON。", max_tokens=None):
-        text = self.call(prompt, system, max_tokens=max_tokens)
-        if not text:
-            return None
-        t = text.strip()
-        t = re.sub(r"^```[a-zA-Z]*\s*|\s*```$", "", t).strip()
-        try:
-            return json.loads(t)
-        except Exception:
-            pass
-        m = re.search(r"(\{[\s\S]*\}|\[[\s\S]*\])", t)
-        if m:
-            try:
-                return json.loads(m.group(1))
-            except Exception:
-                pass
-        print("    [解析失败] 模型返回的不是合法 JSON")
-        return None
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from llm_gateway import AI, Gateway, parse_json  # noqa: E402,F401
 
 
 # ---------------- 模式一：热点中文化 + 打标签 ----------------
@@ -537,6 +485,28 @@ def render_article(fm, path=None, lead=None, points=None,
     return "\n".join(lines)
 
 
+# 摘要短于此字数、且有原文链接时，才去抓全文（避免对已有内容的条目做多余网络请求）
+_RESEARCH_MIN = 150
+
+
+def _maybe_fetch_original(fm):
+    """热点内容太薄 → 自动抓取原文全文，返回纯文本；任何异常返回空串（绝不阻塞）。
+
+    开关：环境变量 AI_RESEARCH=0 可整体关闭（默认开启）。
+    """
+    if os.environ.get("AI_RESEARCH", "1") == "0":
+        return ""
+    url = (fm.get("url") or "").strip()
+    summary = (fm.get("summary_zh") or fm.get("summary") or "").strip()
+    if not url or len(summary) >= _RESEARCH_MIN:
+        return ""  # 已有足够摘要或没链接，不需要抓
+    try:
+        text = fetch_article(url, timeout=8, max_chars=3000)
+    except Exception:
+        return ""
+    return text or ""
+
+
 def mode_articles(ai, cfg, force=False):
     """给热点生成「站内可直接读」的富文本正文"""
     files = [p for p in sorted(NEWS_DIR.glob("*.md")) if p.name != "index.md"]
@@ -564,18 +534,22 @@ def mode_articles(ai, cfg, force=False):
         payload = None
 
         if ai.enabled:
-            listing = "\n".join(
-                f'{j}. 标题：{fm.get("title", "")}\n'
-                f'   来源：{fm.get("source", "")}\n'
-                f'   已有摘要：{(fm.get("summary_zh") or fm.get("summary") or "")[:200]}'
-                for j, (_, fm, _) in enumerate(batch)
-            )
+            parts = []
+            for j, (_, fm, _) in enumerate(batch):
+                line = (f'{j}. 标题：{fm.get("title", "")}\n'
+                        f'   来源：{fm.get("source", "")}\n'
+                        f'   已有摘要：{(fm.get("summary_zh") or fm.get("summary") or "")[:200]}')
+                orig = _maybe_fetch_original(fm) if ai.enabled else ""
+                if orig:
+                    line += f'\n   抓取的原文全文（来自 {fm.get("url", "")}）：\n   {orig}'
+                parts.append(line)
+            listing = "\n".join(parts)
             prompt = f"""下面是一些 AI 领域的新闻条目。请把每一条改写成中文读者能**直接在站内读完**的简讯。
 目标：一个完全不懂 AI 的人读完，也能明白发生了什么、为什么值得关心、可以怎么用。
 
 写作前提：
-- 你**看不到原文全文**，只能依据「标题 + 来源 + 已有摘要 + 你自己的知识」来写。
-- 严禁编造具体的数字、百分比、日期、公司名、产品名。拿不准就只写定性描述。
+- 如果某条下面提供了「抓取的原文全文」，请**优先依据它**来写，只总结原文里真正出现的信息，**严禁编造原文没有的具体数字、百分比、日期、公司名、产品名**。
+- 没提供「抓取的原文全文」的条目，只能依据「标题 + 来源 + 已有摘要 + 你自己的知识」来写；同样严禁编造具体数字/公司名/产品名。
 - 如果信息确实太少，就围绕这个主题写**背景科普**：这个概念是什么、这类技术在解决什么问题、目前大致处于什么阶段。让零基础读者读完有收获，远比复述标题有价值。
 
 对每一条输出（注意字段名必须一致）：
