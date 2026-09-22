@@ -1,0 +1,17 @@
+[package]
+name = "cl-kb"
+version = "1.0.0"
+description = "CL 的个人 AI 知识库（桌面版）"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+[profile.release]
+# 低配机友好：控制二进制体积
+strip = true
+lto = true
+codegen-units = 1
