@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-09-24"
+date: "2026-09-25"
 ---
 
 # 今日学习任务
 
-> 2026-09-24 · 由脚本自动生成（AI 辅助）
+> 2026-09-25 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-09-24"
 
 ## 今天做这几件事
 
-1. [在 Coze 或 Dify 上搭第一个机器人](./path/stage-4/02-在Coze或Dify上搭.md)　<sub>stage · 4</sub>
 1. [用 n8n 或 Coze 做一个「每日 AI 新闻摘要」自动化](./path/stage-4/03-用n8n或Coze做一个.md)　<sub>stage · 4</sub>
 1. [给工作流加上定时触发和结果推送](./path/stage-4/04-给工作流加上定时触发和结.md)　<sub>stage · 4</sub>
+1. [学会用 API 调用模型，写一个简单脚本](./path/stage-4/05-学会用API调用模型写一.md)　<sub>stage · 4</sub>
 
 ## 今天值得看的新热点
 
-- [Two years of OpenAI Academy](./news/2026-09-24-two-years-of-openai-academy.md)　<sub>2026-09-24</sub>
-- [Meta’s AI agent is a cute little guy who’s great at spending my money](./news/2026-09-24-meta-s-ai-agent-is-a-cute-little-guy-who.md)　<sub>2026-09-24</sub>
-- [Meta Connect 2026: The biggest news and announcements](./news/2026-09-24-meta-connect-2026-the-biggest-news-and-a.md)　<sub>2026-09-24</sub>
-- [Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch](./news/2026-09-24-meta-connect-2026-live-blog-on-the-groun.md)　<sub>2026-09-24</sub>
-- [How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows](./news/2026-09-24-how-to-use-nvidia-warp-and-mjwarp-to-acc.md)　<sub>2026-09-24</sub>
+- [云栖之后，10+阿里AI实战派将亮相QCon上海站](./news/2026-09-25-云栖之后-10-阿里ai实战派将亮相qcon上海站.md)　<sub>2026-09-25</sub>
+- [Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend](./news/2026-09-25-meta-s-muse-charm-looks-like-a-tamagotch.md)　<sub>2026-09-25</sub>
+- [Meta is going to let you build games with AI right on your phone](./news/2026-09-25-meta-is-going-to-let-you-build-games-wit.md)　<sub>2026-09-25</sub>
+- [Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS](./news/2026-09-25-google-photos-clueless-inspired-virtual.md)　<sub>2026-09-25</sub>
+- [Gemini 3.8 Live with Live Avatar gives Google’s AI a face](./news/2026-09-25-gemini-3-8-live-with-live-avatar-gives-g.md)　<sub>2026-09-25</sub>
 
 ## 怎么打卡
 
