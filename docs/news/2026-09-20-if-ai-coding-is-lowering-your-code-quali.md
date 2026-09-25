@@ -12,7 +12,7 @@ cover: "/covers/news/code.svg"
 <img class="cl-article-cover" src="/covers/news/code.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-09-21T07:06:37+08:00">🕒 4 天前更新</span>
+  <span class="cl-time" data-ts="2026-09-21T07:06:37+08:00">🕒 5 天前更新</span>
   <span class="cl-meta-item">📰 Hacker News</span>
   <span class="cl-meta-item">🏷️ 社区</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>

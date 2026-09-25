@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-09-25"
+date: "2026-09-26"
 ---
 
 # 今日学习任务
 
-> 2026-09-25 · 由脚本自动生成（AI 辅助）
+> 2026-09-26 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-09-25"
 
 ## 今天做这几件事
 
-1. [用 n8n 或 Coze 做一个「每日 AI 新闻摘要」自动化](./path/stage-4/03-用n8n或Coze做一个.md)　<sub>stage · 4</sub>
 1. [给工作流加上定时触发和结果推送](./path/stage-4/04-给工作流加上定时触发和结.md)　<sub>stage · 4</sub>
 1. [学会用 API 调用模型，写一个简单脚本](./path/stage-4/05-学会用API调用模型写一.md)　<sub>stage · 4</sub>
+1. [把你自己最常用的 1 个流程完全自动化](./path/stage-4/06-把你自己最常用的1个流程.md)　<sub>stage · 4</sub>
 
 ## 今天值得看的新热点
 
-- [云栖之后，10+阿里AI实战派将亮相QCon上海站](./news/2026-09-25-云栖之后-10-阿里ai实战派将亮相qcon上海站.md)　<sub>2026-09-25</sub>
-- [Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend](./news/2026-09-25-meta-s-muse-charm-looks-like-a-tamagotch.md)　<sub>2026-09-25</sub>
-- [Meta is going to let you build games with AI right on your phone](./news/2026-09-25-meta-is-going-to-let-you-build-games-wit.md)　<sub>2026-09-25</sub>
-- [Google Photos ‘Clueless’-inspired virtual closet is now available on Android and iOS](./news/2026-09-25-google-photos-clueless-inspired-virtual.md)　<sub>2026-09-25</sub>
-- [Gemini 3.8 Live with Live Avatar gives Google’s AI a face](./news/2026-09-25-gemini-3-8-live-with-live-avatar-gives-g.md)　<sub>2026-09-25</sub>
+- [Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge](./news/2026-09-26-unsecured-openai-agents-posted-53-user-i.md)　<sub>2026-09-26</sub>
+- [Proaction boosts sales 60% and saves 75+ hours with Codex](./news/2026-09-26-proaction-boosts-sales-60-and-saves-75-h.md)　<sub>2026-09-26</sub>
+- [Meta opens early access program for new Muse features](./news/2026-09-26-meta-opens-early-access-program-for-new.md)　<sub>2026-09-26</sub>
+- [Meta makes the Muse filesystem even more accessible](./news/2026-09-26-meta-makes-the-muse-filesystem-even-more.md)　<sub>2026-09-26</sub>
+- [Anthropic to pay Akamai $11.6 billion over seven years in cloud deal](./news/2026-09-26-anthropic-to-pay-akamai-11-6-billion-ove.md)　<sub>2026-09-26</sub>
 
 ## 怎么打卡
 
