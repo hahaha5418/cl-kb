@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-09-27"
+date: "2026-09-28"
 ---
 
 # 今日学习任务
 
-> 2026-09-27 · 由脚本自动生成（AI 辅助）
+> 2026-09-28 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-09-27"
 
 ## 今天做这几件事
 
-1. [学会用 API 调用模型，写一个简单脚本](./path/stage-4/05-学会用API调用模型写一.md)　<sub>stage · 4</sub>
 1. [把你自己最常用的 1 个流程完全自动化](./path/stage-4/06-把你自己最常用的1个流程.md)　<sub>stage · 4</sub>
 1. [阶段四 · 搭建自动化工作流](./path/stage-4/index.md)　<sub>stage · 4</sub>
+1. [弄懂 5 个核心概念：大模型、Token、上下文、幻觉、多模态](./path/stage-1/01-弄懂5个核心概念大模型T.md)　<sub>stage · 1</sub>
 
 ## 今天值得看的新热点
 
-- [阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview](./news/2026-09-27-阿里巴巴开源-ai-辅助代码评审工具-opencodereview.md)　<sub>2026-09-27</sub>
-- [OpenAI pauses training of its ‘most capable models’](./news/2026-09-27-openai-pauses-training-of-its-most-capab.md)　<sub>2026-09-27</sub>
-- [谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架](./news/2026-09-26-谷歌tpu跑kimi比英伟达gpu快57-用的还是deepseek推理框架.md)　<sub>2026-09-26</sub>
-- [笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub](./news/2026-09-26-笔记本跑7000亿参数glm-无gpu也行-ssd当显存用火爆github.md)　<sub>2026-09-26</sub>
-- [Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge](./news/2026-09-26-unsecured-openai-agents-posted-53-user-i.md)　<sub>2026-09-26</sub>
+- [OpenAI halts training of latest models as reports mount of AI agents going rogue](./news/2026-09-28-openai-halts-training-of-latest-models-a.md)　<sub>2026-09-28</sub>
+- [OpenAI agents tried to ‘bruteforce’ a UN website](./news/2026-09-28-openai-agents-tried-to-bruteforce-a-un-w.md)　<sub>2026-09-28</sub>
+- [Can Muse overcome Meta’s trust issues?](./news/2026-09-28-can-muse-overcome-meta-s-trust-issues.md)　<sub>2026-09-28</sub>
+- [Anthropic’s Dario Amodei gets the SNL treatment](./news/2026-09-28-anthropic-s-dario-amodei-gets-the-snl-tr.md)　<sub>2026-09-28</sub>
+- [Anthropic’s CEO is about to have dinner with President Trump](./news/2026-09-28-anthropic-s-ceo-is-about-to-have-dinner.md)　<sub>2026-09-28</sub>
 
 ## 怎么打卡
 
