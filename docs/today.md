@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-09-29"
+date: "2026-09-30"
 ---
 
 # 今日学习任务
 
-> 2026-09-29 · 由脚本自动生成（AI 辅助）
+> 2026-09-30 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-09-29"
 
 ## 今天做这几件事
 
-1. [阶段四 · 搭建自动化工作流](./path/stage-4/index.md)　<sub>stage · 4</sub>
 1. [弄懂 5 个核心概念：大模型、Token、上下文、幻觉、多模态](./path/stage-1/01-弄懂5个核心概念大模型T.md)　<sub>stage · 1</sub>
 1. [搞清「训练」和「推理」的区别](./path/stage-1/02-搞清训练和推理的区别.md)　<sub>stage · 1</sub>
+1. [注册并试用 2 个对话助手（推荐 DeepSeek + 豆包）](./path/stage-1/03-注册并试用2个对话助手推.md)　<sub>stage · 1</sub>
 
 ## 今天值得看的新热点
 
-- [Watch the winning trailer from the Future Vision XPRIZE, The Gifted.](./news/2026-09-29-watch-the-winning-trailer-from-the-futur.md)　<sub>2026-09-29</sub>
-- [Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation](./news/2026-09-29-source-inference-provider-modal-labs-clo.md)　<sub>2026-09-29</sub>
-- [OpenAI still doesn't seem to have a handle on all of its rogue AI activity](./news/2026-09-29-openai-still-doesn-t-seem-to-have-a-hand.md)　<sub>2026-09-29</sub>
-- [OpenAI’s AI agents need to catch up](./news/2026-09-29-openai-s-ai-agents-need-to-catch-up.md)　<sub>2026-09-29</sub>
-- [OpenAI keeps bulldozing mathematicians](./news/2026-09-29-openai-keeps-bulldozing-mathematicians.md)　<sub>2026-09-29</sub>
+- [The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch](./news/2026-09-30-the-internet-is-convinced-elon-musk-s-xa.md)　<sub>2026-09-30</sub>
+- [Protesters gather at OpenAI’s DevDay](./news/2026-09-30-protesters-gather-at-openai-s-devday.md)　<sub>2026-09-30</sub>
+- [OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite](./news/2026-09-30-openai-takes-on-microsoft-with-the-launc.md)　<sub>2026-09-30</sub>
+- [OpenAI’s latest features take direct aim at the app store model](./news/2026-09-30-openai-s-latest-features-take-direct-aim.md)　<sub>2026-09-30</sub>
+- [OpenAI repotedly in talks to raise $30B round at $1.4T valuation](./news/2026-09-30-openai-repotedly-in-talks-to-raise-30b-r.md)　<sub>2026-09-30</sub>
 
 ## 怎么打卡
 
