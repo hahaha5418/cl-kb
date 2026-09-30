@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-09-30"
+date: "2026-10-01"
 ---
 
 # 今日学习任务
 
-> 2026-09-30 · 由脚本自动生成（AI 辅助）
+> 2026-10-01 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-09-30"
 
 ## 今天做这几件事
 
-1. [弄懂 5 个核心概念：大模型、Token、上下文、幻觉、多模态](./path/stage-1/01-弄懂5个核心概念大模型T.md)　<sub>stage · 1</sub>
 1. [搞清「训练」和「推理」的区别](./path/stage-1/02-搞清训练和推理的区别.md)　<sub>stage · 1</sub>
 1. [注册并试用 2 个对话助手（推荐 DeepSeek + 豆包）](./path/stage-1/03-注册并试用2个对话助手推.md)　<sub>stage · 1</sub>
+1. [用 AI 完成 3 件真实小事（写邮件、改文案、解释一个概念）](./path/stage-1/04-用AI完成3件真实小事写.md)　<sub>stage · 1</sub>
 
 ## 今天值得看的新热点
 
-- [The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch](./news/2026-09-30-the-internet-is-convinced-elon-musk-s-xa.md)　<sub>2026-09-30</sub>
-- [Protesters gather at OpenAI’s DevDay](./news/2026-09-30-protesters-gather-at-openai-s-devday.md)　<sub>2026-09-30</sub>
-- [OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite](./news/2026-09-30-openai-takes-on-microsoft-with-the-launc.md)　<sub>2026-09-30</sub>
-- [OpenAI’s latest features take direct aim at the app store model](./news/2026-09-30-openai-s-latest-features-take-direct-aim.md)　<sub>2026-09-30</sub>
-- [OpenAI repotedly in talks to raise $30B round at $1.4T valuation](./news/2026-09-30-openai-repotedly-in-talks-to-raise-30b-r.md)　<sub>2026-09-30</sub>
+- [Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation](./news/2026-10-01-valor-atreides-and-sequoia-back-ai-start.md)　<sub>2026-10-01</sub>
+- [OpenAI’s Jev clone could help the frontier lab stop its swarming agents](./news/2026-10-01-openai-s-jev-clone-could-help-the-fronti.md)　<sub>2026-10-01</sub>
+- [Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now](./news/2026-10-01-google-announces-gemini-4-and-says-it-s.md)　<sub>2026-10-01</sub>
+- [GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项](./news/2026-10-01-gitlab-duo-通过微软-foundry-扩展自托管-ai-选项.md)　<sub>2026-10-01</sub>
+- [Gemini 4 Argon: our next era of frontier intelligence](./news/2026-10-01-gemini-4-argon-our-next-era-of-frontier.md)　<sub>2026-10-01</sub>
 
 ## 怎么打卡
 
