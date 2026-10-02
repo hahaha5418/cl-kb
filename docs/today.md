@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-02"
+date: "2026-10-03"
 ---
 
 # 今日学习任务
 
-> 2026-10-02 · 由脚本自动生成（AI 辅助）
+> 2026-10-03 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-02"
 
 ## 今天做这几件事
 
-1. [注册并试用 2 个对话助手（推荐 DeepSeek + 豆包）](./path/stage-1/03-注册并试用2个对话助手推.md)　<sub>stage · 1</sub>
 1. [用 AI 完成 3 件真实小事（写邮件、改文案、解释一个概念）](./path/stage-1/04-用AI完成3件真实小事写.md)　<sub>stage · 1</sub>
 1. [读完术语词典「基础概念」分类下的全部词条](./path/stage-1/05-读完术语词典基础概念分类.md)　<sub>stage · 1</sub>
+1. [记录 3 个你踩过的坑，写成笔记](./path/stage-1/06-记录3个你踩过的坑写成笔.md)　<sub>stage · 1</sub>
 
 ## 今天值得看的新热点
 
-- [The eternal complement](./news/2026-10-02-the-eternal-complement.md)　<sub>2026-10-02</sub>
-- [OpenAI cuts ties with 3 safety researchers, WSJ reports](./news/2026-10-02-openai-cuts-ties-with-3-safety-researche.md)　<sub>2026-10-02</sub>
-- [Judge dismisses antitrust lawsuits over Google’s AI Overviews](./news/2026-10-02-judge-dismisses-antitrust-lawsuits-over.md)　<sub>2026-10-02</sub>
-- [How Albertsons Companies is reimagining retail from the inside out](./news/2026-10-02-how-albertsons-companies-is-reimagining.md)　<sub>2026-10-02</sub>
-- [Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground](./news/2026-10-02-google-thinks-spacex-s-starship-has-to-l.md)　<sub>2026-10-02</sub>
+- [OpenAI’s Dot agent is enterprise software that can also order your dinner](./news/2026-10-03-openai-s-dot-agent-is-enterprise-softwar.md)　<sub>2026-10-03</sub>
+- [Meta open sources code to let you make Muse AI gadgets](./news/2026-10-03-meta-open-sources-code-to-let-you-make-m.md)　<sub>2026-10-03</sub>
+- [Call it AI, call it Super Intelligence, only 2% of consumers are buying it](./news/2026-10-03-call-it-ai-call-it-super-intelligence-on.md)　<sub>2026-10-03</sub>
+- [Apple will limit Mac disk access as AI agents ‘substantially’ increase risk](./news/2026-10-03-apple-will-limit-mac-disk-access-as-ai-a.md)　<sub>2026-10-03</sub>
+- [Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents](./news/2026-10-03-apple-says-it-s-tightening-macos-full-di.md)　<sub>2026-10-03</sub>
 
 ## 怎么打卡
 
