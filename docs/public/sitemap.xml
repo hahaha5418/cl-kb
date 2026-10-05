@@ -52,7 +52,6 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/guide.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/media.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/</loc></url>
-  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-08-06-weathernext-ai-model-achieves-breakthrou.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-08-12-putting-sign-language-ai-into-users-hand.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-08-14-introducing-gemini-3-7-flash.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-08-21-from-atari-to-eve-online-building-on-15.html</loc></url>
@@ -954,6 +953,7 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-02-with-most-information-hidden-the-game-st.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-02-丘成桐新论文致谢了gpt和claude.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-02-别再给-agent-一个-毛坯房-了-构建-agent-拎包入住的开发环境实践.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-4dcodebench-benchmarking-agents-on-inver.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-a-model-guide-for-the-gpt-6-family.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-affected-by-layoffs-don-t-miss-this-75-d.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-all-the-ai-agents-that-can-live-in-your.html</loc></url>
@@ -964,8 +964,11 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-call-it-ai-call-it-super-intelligence-on.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-circuit-breaker-labs-hopes-to-make-ai-sa.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-deepseek扩招-弹性计算团队大量hc-尤其需要资深工程师.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-frugalevo-towards-cost-aware-llm-guided.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-it-s-not-ai-anymore-it-s-super-intellige.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-jev估值100亿美元-创始人diogo-almeida回答一切.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-language-models-that-play-chess-and-expl.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-less-decoder-is-more-encoder-geometric-r.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-meta-open-sources-code-to-let-you-make-m.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-meta-wants-your-next-gadget-to-be-muse-i.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-openai-s-dot-agent-is-enterprise-softwar.html</loc></url>
@@ -973,6 +976,7 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-sean-parker-is-rebuilding-stability-ai-a.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-splice-ceo-kakul-srivastava-thinks-ai-em.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-techcrunch-disrupt-2026-blackstone-s-jas.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-what-should-world-models-forget-stratifi.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-03-企业级-agent-infra-架构实践-从安全沙箱到网络管控与身份治理-qco.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-agent-的记忆不在对话里-把企业数仓沉淀为可治理的共享语义记忆-qcon上海.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-ai算力硬合作-马斯克还是更相信中国制造.html</loc></url>
@@ -981,6 +985,7 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-anthropic-tried-to-persuade-pope-that-ai.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-capcom-is-preparing-for-a-future-where-w.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-gpt-6要-吃掉-3d公司-这家公司不到2年arr翻百倍-破1亿美元.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-how-to-scale-intent-quality-and-artistry.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-openai-safety-employee-resigns-claiming.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-openai-safety-leader-quits-warning-ai-co.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-our-ai-midwife.html</loc></url>
@@ -989,11 +994,37 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-trump-unveils-his-new-super-intelligence.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-what-s-the-future-for-pure-math-research.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-04-最火ai岗位fde-月薪5万-都干这些.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-accept-bad-things-in-return-for-benefits.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-bringing-predictive-analytics-to-the-age.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-building-advertising-for-the-way-people.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-c2pa-不够可信-苹果把照片签名塞进传感器-却把信任交给了自家云.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-can-super-intelligence-and-a-non-binding.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-cloudflare-将-1-1-1-1-dns-缓存的内存占用削减了-100t.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-connecting-ai-agents-to-enterprise-knowl.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-dataagent-快手大数据生产与分析的智能化探索之路-qcon上海.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-emtech-future-2026-when-ai-meets-everyth.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-google-froze-its-open-source-bug-bounty.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-homa-the-end-of-tcp-for-ai-clusters-vide.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-java新闻汇总-graalvm-jakarta-data-jnosql-azu.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-java新闻汇总-新的openjdk-jep-cdi-5-0-spring-op.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-nj-s-former-lt-gov-is-using-ai-to-say-he.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-our-approach-to-eu-text-provenance-rules.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-people-really-hate-ai-so-why-can-t-they.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-spending-on-ai-is-becoming-almost-imposs.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-刚刚-hinton发了首篇rsi论文.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-刚刚-诺贝尔奖颁给光遗传学.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-05-限时28天-openai承诺没新功能就重置-网友-只想要opus.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-ai-companies-are-parasites.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-all-the-drama-around-ai-s-takeover-of-ma.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-hot-girl-hotline-is-like-dear-abby-for-t.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-instinct-brings-its-ai-agent-to-group-ch.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-openai-is-adding-text-watermarking-in-ch.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-openai-pr-tells-journalist-to-move-on-wh.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-openai-will-start-watermarking-chatgpt-s.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-reflection-debuts-beam-an-open-weight-ai.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-this-startup-is-issuing-ai-generated-acn.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-tiktok-rolls-out-an-ai-shopping-assistan.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-06-wikipedia-operator-says-openai-s-rogue-b.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/notes/</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/notes/示例-今天学到的三件事.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/path/</loc></url>

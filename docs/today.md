@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-05"
+date: "2026-10-06"
 ---
 
 # 今日学习任务
 
-> 2026-10-05 · 由脚本自动生成（AI 辅助）
+> 2026-10-06 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-05"
 
 ## 今天做这几件事
 
-1. [记录 3 个你踩过的坑，写成笔记](./path/stage-1/06-记录3个你踩过的坑写成笔.md)　<sub>stage · 1</sub>
 1. [阶段一 · 建立基本盘](./path/stage-1/index.md)　<sub>stage · 1</sub>
 1. [学会提示词五要素：角色、任务、背景、要求、格式](./path/stage-2/01-学会提示词五要素角色任务.md)　<sub>stage · 2</sub>
+1. [用同一个任务测试「零样本」和「少样本」的差别](./path/stage-2/02-用同一个任务测试零样本和.md)　<sub>stage · 2</sub>
 
 ## 今天值得看的新热点
 
-- [Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions](./news/2026-10-05-google-froze-its-open-source-bug-bounty.md)　<sub>2026-10-05</sub>
-- [最火AI岗位FDE：月薪5万，都干这些…](./news/2026-10-04-最火ai岗位fde-月薪5万-都干这些.md)　<sub>2026-10-04</sub>
-- [The Agent Said It Was Done. The Database Disagreed.](./news/2026-10-04-the-agent-said-it-was-done-the-database.md)　<sub>2026-10-04</sub>
-- [OpenAI safety leader quits, warning AI company's culture is 'broken'](./news/2026-10-04-openai-safety-leader-quits-warning-ai-co.md)　<sub>2026-10-04</sub>
-- [OpenAI safety employee resigns, claiming the company’s ‘culture is broken’](./news/2026-10-04-openai-safety-employee-resigns-claiming.md)　<sub>2026-10-04</sub>
+- [Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage](./news/2026-10-06-wikipedia-operator-says-openai-s-rogue-b.md)　<sub>2026-10-06</sub>
+- [OpenAI will start watermarking ChatGPT’s text in the EU](./news/2026-10-06-openai-will-start-watermarking-chatgpt-s.md)　<sub>2026-10-06</sub>
+- [OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide](./news/2026-10-06-openai-pr-tells-journalist-to-move-on-wh.md)　<sub>2026-10-06</sub>
+- [OpenAI is adding text watermarking in ChatGPT and Codex](./news/2026-10-06-openai-is-adding-text-watermarking-in-ch.md)　<sub>2026-10-06</sub>
+- [限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus](./news/2026-10-05-限时28天-openai承诺没新功能就重置-网友-只想要opus.md)　<sub>2026-10-05</sub>
 
 ## 怎么打卡
 
