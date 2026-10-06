@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-06"
+date: "2026-10-07"
 ---
 
 # 今日学习任务
 
-> 2026-10-06 · 由脚本自动生成（AI 辅助）
+> 2026-10-07 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-06"
 
 ## 今天做这几件事
 
-1. [阶段一 · 建立基本盘](./path/stage-1/index.md)　<sub>stage · 1</sub>
 1. [学会提示词五要素：角色、任务、背景、要求、格式](./path/stage-2/01-学会提示词五要素角色任务.md)　<sub>stage · 2</sub>
 1. [用同一个任务测试「零样本」和「少样本」的差别](./path/stage-2/02-用同一个任务测试零样本和.md)　<sub>stage · 2</sub>
+1. [练习思维链：让 AI 先思考再回答](./path/stage-2/03-练习思维链让AI先思考再.md)　<sub>stage · 2</sub>
 
 ## 今天值得看的新热点
 
-- [Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage](./news/2026-10-06-wikipedia-operator-says-openai-s-rogue-b.md)　<sub>2026-10-06</sub>
-- [OpenAI will start watermarking ChatGPT’s text in the EU](./news/2026-10-06-openai-will-start-watermarking-chatgpt-s.md)　<sub>2026-10-06</sub>
-- [OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide](./news/2026-10-06-openai-pr-tells-journalist-to-move-on-wh.md)　<sub>2026-10-06</sub>
-- [OpenAI is adding text watermarking in ChatGPT and Codex](./news/2026-10-06-openai-is-adding-text-watermarking-in-ch.md)　<sub>2026-10-06</sub>
-- [限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus](./news/2026-10-05-限时28天-openai承诺没新功能就重置-网友-只想要opus.md)　<sub>2026-10-05</sub>
+- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](./news/2026-10-07-ex-ramp-engineers-raise-20m-for-platform.md)　<sub>2026-10-07</sub>
+- [EmbeddingGemma 2: an open, lightweight multimodal embedding model](./news/2026-10-07-embeddinggemma-2-an-open-lightweight-mul.md)　<sub>2026-10-07</sub>
+- [Atlassian and OpenAI expand partnership to turn enterprise knowledge into action](./news/2026-10-07-atlassian-and-openai-expand-partnership.md)　<sub>2026-10-07</sub>
+- [AI computing startup Lambda to raise $4B ahead of planned IPO](./news/2026-10-07-ai-computing-startup-lambda-to-raise-4b.md)　<sub>2026-10-07</sub>
+- [一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件](./news/2026-10-06-一边是-webgpu-视觉革命-一边是浏览器垄断争议-canvas-ui-发布.md)　<sub>2026-10-06</sub>
 
 ## 怎么打卡
 
