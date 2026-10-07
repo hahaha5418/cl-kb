@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-07"
+date: "2026-10-08"
 ---
 
 # 今日学习任务
 
-> 2026-10-07 · 由脚本自动生成（AI 辅助）
+> 2026-10-08 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-07"
 
 ## 今天做这几件事
 
-1. [学会提示词五要素：角色、任务、背景、要求、格式](./path/stage-2/01-学会提示词五要素角色任务.md)　<sub>stage · 2</sub>
 1. [用同一个任务测试「零样本」和「少样本」的差别](./path/stage-2/02-用同一个任务测试零样本和.md)　<sub>stage · 2</sub>
 1. [练习思维链：让 AI 先思考再回答](./path/stage-2/03-练习思维链让AI先思考再.md)　<sub>stage · 2</sub>
+1. [给自己最常做的重复任务写一条系统提示词，之后复用](./path/stage-2/04-给自己最常做的重复任务写.md)　<sub>stage · 2</sub>
 
 ## 今天值得看的新热点
 
-- [Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product](./news/2026-10-07-ex-ramp-engineers-raise-20m-for-platform.md)　<sub>2026-10-07</sub>
-- [EmbeddingGemma 2: an open, lightweight multimodal embedding model](./news/2026-10-07-embeddinggemma-2-an-open-lightweight-mul.md)　<sub>2026-10-07</sub>
-- [Atlassian and OpenAI expand partnership to turn enterprise knowledge into action](./news/2026-10-07-atlassian-and-openai-expand-partnership.md)　<sub>2026-10-07</sub>
-- [AI computing startup Lambda to raise $4B ahead of planned IPO](./news/2026-10-07-ai-computing-startup-lambda-to-raise-4b.md)　<sub>2026-10-07</sub>
-- [一边是 WebGPU 视觉革命，一边是浏览器垄断争议：Canvas UI 发布 35 个组件](./news/2026-10-06-一边是-webgpu-视觉革命-一边是浏览器垄断争议-canvas-ui-发布.md)　<sub>2026-10-06</sub>
+- [Nous Research confirms it hit $1.5B valuation, launches AI agents for business users](./news/2026-10-08-nous-research-confirms-it-hit-1-5b-valua.md)　<sub>2026-10-08</sub>
+- [Multimodal open d1 decision models for the edge](./news/2026-10-08-multimodal-open-d1-decision-models-for-t.md)　<sub>2026-10-08</sub>
+- [Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11](./news/2026-10-08-microsoft-releases-new-nvidia-chip-ai-pc.md)　<sub>2026-10-08</sub>
+- [Microsoft is giving Copilot more control over Windows and your files](./news/2026-10-08-microsoft-is-giving-copilot-more-control.md)　<sub>2026-10-08</sub>
+- [Meta’s Muse launches on iPad just a month after its mobile debut](./news/2026-10-08-meta-s-muse-launches-on-ipad-just-a-mont.md)　<sub>2026-10-08</sub>
 
 ## 怎么打卡
 
