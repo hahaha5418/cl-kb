@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-08"
+date: "2026-10-09"
 ---
 
 # 今日学习任务
 
-> 2026-10-08 · 由脚本自动生成（AI 辅助）
+> 2026-10-09 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-08"
 
 ## 今天做这几件事
 
-1. [用同一个任务测试「零样本」和「少样本」的差别](./path/stage-2/02-用同一个任务测试零样本和.md)　<sub>stage · 2</sub>
 1. [练习思维链：让 AI 先思考再回答](./path/stage-2/03-练习思维链让AI先思考再.md)　<sub>stage · 2</sub>
 1. [给自己最常做的重复任务写一条系统提示词，之后复用](./path/stage-2/04-给自己最常做的重复任务写.md)　<sub>stage · 2</sub>
+1. [建立自己的提示词模板库，至少 5 条](./path/stage-2/05-建立自己的提示词模板库至.md)　<sub>stage · 2</sub>
 
 ## 今天值得看的新热点
 
-- [Nous Research confirms it hit $1.5B valuation, launches AI agents for business users](./news/2026-10-08-nous-research-confirms-it-hit-1-5b-valua.md)　<sub>2026-10-08</sub>
-- [Multimodal open d1 decision models for the edge](./news/2026-10-08-multimodal-open-d1-decision-models-for-t.md)　<sub>2026-10-08</sub>
-- [Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11](./news/2026-10-08-microsoft-releases-new-nvidia-chip-ai-pc.md)　<sub>2026-10-08</sub>
-- [Microsoft is giving Copilot more control over Windows and your files](./news/2026-10-08-microsoft-is-giving-copilot-more-control.md)　<sub>2026-10-08</sub>
-- [Meta’s Muse launches on iPad just a month after its mobile debut](./news/2026-10-08-meta-s-muse-launches-on-ipad-just-a-mont.md)　<sub>2026-10-08</sub>
+- [USA Today becomes the latest publisher to sue OpenAI](./news/2026-10-09-usa-today-becomes-the-latest-publisher-t.md)　<sub>2026-10-09</sub>
+- [Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months](./news/2026-10-09-popular-ai-leaderboard-arena-nearly-doub.md)　<sub>2026-10-09</sub>
+- [OpenAI’s revenue is reportedly $20 billion less than previously projected](./news/2026-10-09-openai-s-revenue-is-reportedly-20-billio.md)　<sub>2026-10-09</sub>
+- [How Oracle turns days of work into minutes with ChatGPT and Codex](./news/2026-10-09-how-oracle-turns-days-of-work-into-minut.md)　<sub>2026-10-09</sub>
+- [Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect](./news/2026-10-09-fired-openai-safety-researchers-dispute.md)　<sub>2026-10-09</sub>
 
 ## 怎么打卡
 
