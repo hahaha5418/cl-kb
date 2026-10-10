@@ -12,7 +12,7 @@ cover: "/covers/news/agent.svg"
 <img class="cl-article-cover" src="/covers/news/agent.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-10-10T07:07:25+08:00">🕒 2 分钟前更新</span>
+  <span class="cl-time" data-ts="2026-10-10T07:07:25+08:00">🕒 1 天前更新</span>
   <span class="cl-meta-item">📰 TechCrunch AI</span>
   <span class="cl-meta-item">🏷️ 行业</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>
