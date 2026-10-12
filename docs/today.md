@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-12"
+date: "2026-10-13"
 ---
 
 # 今日学习任务
 
-> 2026-10-12 · 由脚本自动生成（AI 辅助）
+> 2026-10-13 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-12"
 
 ## 今天做这几件事
 
-1. [学会控制输出格式：JSON、表格、Markdown](./path/stage-2/06-学会控制输出格式JSON.md)　<sub>stage · 2</sub>
 1. [测试温度和 Top-P 对结果的影响](./path/stage-2/07-测试温度和TopP对结果.md)　<sub>stage · 2</sub>
 1. [阶段二 · 提示词工程](./path/stage-2/index.md)　<sub>stage · 2</sub>
+1. [用 AI 生成一组风格统一的配图，试 3 个工具做对比](./path/stage-3/01-用AI生成一组风格统一的.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [Will the HomeView be Apple’s first smart home success?](./news/2026-10-12-will-the-homeview-be-apple-s-first-smart.md)　<sub>2026-10-12</sub>
-- [单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线](./news/2026-10-11-单次rl后训练烧掉260万美元-每步37亿token-小米披露mimo-v2-6.md)　<sub>2026-10-11</sub>
-- [下架8个月，GPT-4o的拯救行动居然还在继续](./news/2026-10-11-下架8个月-gpt-4o的拯救行动居然还在继续.md)　<sub>2026-10-11</sub>
-- [These execs think voice AI hasn’t reached its ChatGPT moment yet](./news/2026-10-11-these-execs-think-voice-ai-hasn-t-reache.md)　<sub>2026-10-11</sub>
-- [Nicolas Cage says he won't work with Amazon again over AI dispute](./news/2026-10-11-nicolas-cage-says-he-won-t-work-with-ama.md)　<sub>2026-10-11</sub>
+- [Meta releases its first frontier model, Muse Wonder](./news/2026-10-13-meta-releases-its-first-frontier-model-m.md)　<sub>2026-10-13</sub>
+- [Meta has some Wonder Full new AI models](./news/2026-10-13-meta-has-some-wonder-full-new-ai-models.md)　<sub>2026-10-13</sub>
+- [AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？](./news/2026-10-13-ai-智能体三周重构-30-万行代码-code-health-从-5-6-升至.md)　<sub>2026-10-13</sub>
+- [智谱新模型，490 tokens/s！](./news/2026-10-12-智谱新模型-490-tokens-s.md)　<sub>2026-10-12</sub>
+- [华为AI靠RSI通关25款游戏！操作次数比人类少56%](./news/2026-10-12-华为ai靠rsi通关25款游戏-操作次数比人类少56.md)　<sub>2026-10-12</sub>
 
 ## 怎么打卡
 

@@ -1174,9 +1174,11 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-anthropic-can-t-reliably-control-its-ai.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-anthropic-is-cutting-off-its-internal-ev.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-anthropic-s-ai-gave-philadelphia-police.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-can-language-models-play-the-wikipedia-g.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-codex-和-claude-code-都跑偏了-前-openai-研究员称-j.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-danu-robotics-fight-to-build-a-better-re.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-gke-pod-快照可缩短模型加载时间.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-hide-and-seek-hide-concepts-to-seek-expl.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-modal-破解-kubernetes-限制-在几秒内扩展-100-万个并发沙箱.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-my-personal-ai-agent-posted-my-bank-deta.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-nikon-microscopic-video-competition-winn.html</loc></url>
@@ -1184,10 +1186,13 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-pure-insanity-mathematicians-will-need-y.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-rails-之父-dhh-狂吹-rust-快-150-倍-被开发者翻代码后群嘲.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-recent-ai-models-struggled-to-match-a-hu.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-revisiting-tabular-deep-regression-objec.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-rsi-anything-unlocking-recursive-self-im.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-talorys-a-self-hosted-personal-ai-agent.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-the-maker-of-non-text-ai-model-jev-value.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-typesafe-ai-raises-870m-at-7-5b.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-we-can-t-help-treating-ai-like-it-s-huma.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-when-vlms-destroy-what-they-know-spatial.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-一下就能派活-谷歌推出办公-agent-拥有独立账号-能够创建子-agent-还.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-特斯拉fsd-在欧洲被打回原形.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-10-西门子将亮相2026工博会-以软硬协同的工业全栈能力-推动物理ai加速落地.html</loc></url>
@@ -1210,15 +1215,37 @@
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-using-ai-for-just-10-minutes-erodes-your.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-下架8个月-gpt-4o的拯救行动居然还在继续.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-亚马逊云科技在-aurora-dsql-中引入外键约束.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-何恺明团队发布多模态harness框架.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-利用-ai-代码智能体优化软件架构的五种方法.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-单次rl后训练烧掉260万美元-每步37亿token-小米披露mimo-v2-6.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-模型开放之后-ai能力为什么仍难以复用.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-王的猜想-刚刚扩展到四维.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-用不着ctrl-f了-全新ai论文工具-帮你在原文献里海里捞针.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-硅谷ai现状-谁有算力谁是爹.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-11-陶哲轩-数学2-0时代已至.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-48-hours-to-techcrunch-disrupt-2026-hear.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-can-the-ai-industry-persuade-data-center.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-honeyjar-offers-ai-tools-to-improve-pr-a.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-meta-zgateway-在每秒处理超过-10-亿次操作的同时-将-zippy.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-microsoft-president-says-uk-is-best-plac.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-microsoft-s-new-ai-chip-makes-it-less-re.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-radicle-披露了可能导致私有仓库以明文形式暴露的关键漏洞.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-silicon-valley-is-falling-in-line-with-t.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-sveltekit-3-进入-rc-svelte-config-js-没了-li.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-this-ai-startup-says-it-can-generate-per.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-will-the-homeview-be-apple-s-first-smart.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-华为ai靠rsi通关25款游戏-操作次数比人类少56.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-12-智谱新模型-490-tokens-s.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-ai-coding-agents-generate-more-code-but.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-ai-is-a-tool-using-it-well-takes-skill.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-ai-is-not-a-tool-by-rich-hickey.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-ai-models-may-be-capable-of-self-replica.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-ai-智能体三周重构-30-万行代码-code-health-从-5-6-升至.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-epic-games-tells-employees-to-use-ai-to.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-meta-has-some-wonder-full-new-ai-models.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-meta-releases-its-first-frontier-model-m.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-windborne-wins-a-hefty-us-air-force-cont.html</loc></url>
+  <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/news/2026-10-13-从-agent-到-loop-ai-正如何重构软件工程-qcon-上海-2026.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/notes/</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/notes/示例-今天学到的三件事.html</loc></url>
   <url><loc>https://fc04b7d4bf66445ba9dd7b6f99bd2681.app.workbuddy.link/path/</loc></url>
