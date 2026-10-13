@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-13"
+date: "2026-10-14"
 ---
 
 # 今日学习任务
 
-> 2026-10-13 · 由脚本自动生成（AI 辅助）
+> 2026-10-14 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-13"
 
 ## 今天做这几件事
 
-1. [测试温度和 Top-P 对结果的影响](./path/stage-2/07-测试温度和TopP对结果.md)　<sub>stage · 2</sub>
 1. [阶段二 · 提示词工程](./path/stage-2/index.md)　<sub>stage · 2</sub>
 1. [用 AI 生成一组风格统一的配图，试 3 个工具做对比](./path/stage-3/01-用AI生成一组风格统一的.md)　<sub>stage · 3</sub>
+1. [写出第一版文生图提示词，并迭代 5 次](./path/stage-3/02-写出第一版文生图提示词并.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [Meta releases its first frontier model, Muse Wonder](./news/2026-10-13-meta-releases-its-first-frontier-model-m.md)　<sub>2026-10-13</sub>
-- [Meta has some Wonder Full new AI models](./news/2026-10-13-meta-has-some-wonder-full-new-ai-models.md)　<sub>2026-10-13</sub>
-- [AI 智能体三周重构 30 万行代码，Code Health 从 5.6 升至 10.0：代码真的变好了吗？](./news/2026-10-13-ai-智能体三周重构-30-万行代码-code-health-从-5-6-升至.md)　<sub>2026-10-13</sub>
-- [智谱新模型，490 tokens/s！](./news/2026-10-12-智谱新模型-490-tokens-s.md)　<sub>2026-10-12</sub>
-- [华为AI靠RSI通关25款游戏！操作次数比人类少56%](./news/2026-10-12-华为ai靠rsi通关25款游戏-操作次数比人类少56.md)　<sub>2026-10-12</sub>
+- [刚亮相就传被英伟达收购：Gemini老兵团队凭什么还敢押注Coding Agent？](./news/2026-10-14-刚亮相就传被英伟达收购-gemini老兵团队凭什么还敢押注coding-agen.md)　<sub>2026-10-14</sub>
+- [Run fast, private agents on-device with LFM2.5-24B-A2B](./news/2026-10-14-run-fast-private-agents-on-device-with-l.md)　<sub>2026-10-14</sub>
+- [OpenAI employee arrested for allegedly planting a bug in a conference room](./news/2026-10-14-openai-employee-arrested-for-allegedly-p.md)　<sub>2026-10-14</sub>
+- [Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕](./news/2026-10-14-meta-新模型杀回ai第一梯队-alexandr-wang-亲述-muse-7.md)　<sub>2026-10-14</sub>
+- [Judge orders OpenAI to turn over hiring records in Apple trade secrets case](./news/2026-10-14-judge-orders-openai-to-turn-over-hiring.md)　<sub>2026-10-14</sub>
 
 ## 怎么打卡
 
