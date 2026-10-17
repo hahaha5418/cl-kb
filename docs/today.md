@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-17"
+date: "2026-10-18"
 ---
 
 # 今日学习任务
 
-> 2026-10-17 · 由脚本自动生成（AI 辅助）
+> 2026-10-18 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-17"
 
 ## 今天做这几件事
 
-1. [用 AI 生成一段 5 秒视频](./path/stage-3/03-用AI生成一段5秒视频.md)　<sub>stage · 3</sub>
 1. [用 AI 做一份 10 页 PPT（推荐 Gamma）](./path/stage-3/04-用AI做一份10页PPT.md)　<sub>stage · 3</sub>
 1. [给视频配 AI 配音，学会选择和克隆音色](./path/stage-3/05-给视频配AI配音学会选择.md)　<sub>stage · 3</sub>
+1. [用剪映或类似工具完成一次完整剪辑](./path/stage-3/06-用剪映或类似工具完成一次.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [Replit is no longer working with Anthropic, CEO says](./news/2026-10-17-replit-is-no-longer-working-with-anthrop.md)　<sub>2026-10-17</sub>
-- [An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet](./news/2026-10-17-an-nvidia-insider-turned-vc-on-why-robot.md)　<sub>2026-10-17</sub>
-- [90% of US working hours are spent on tasks not covered well by AI benchmarks](./news/2026-10-17-90-of-us-working-hours-are-spent-on-task.md)　<sub>2026-10-17</sub>
-- [蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流](./news/2026-10-16-蚂蚁百灵开源-560b-模型-ling-3-0-flash-0-19-美元搞定复.md)　<sub>2026-10-16</sub>
-- [拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文](./news/2026-10-16-拍照和翻译救不了ai眼镜-千问2218元起推新硬件-要抢现实世界里的上下文.md)　<sub>2026-10-16</sub>
+- [Replit makes OpenAI its default over Anthropic, CEO says](./news/2026-10-18-replit-makes-openai-its-default-over-ant.md)　<sub>2026-10-18</sub>
+- [Meta removes language that raised scraping and AI training concerns](./news/2026-10-18-meta-removes-language-that-raised-scrapi.md)　<sub>2026-10-18</sub>
+- [Anthropic says its workforce has become less junior and is spending more time in meetings](./news/2026-10-18-anthropic-says-its-workforce-has-become.md)　<sub>2026-10-18</sub>
+- [Amazon uses AI to monitor union risk in UK warehouses](./news/2026-10-18-amazon-uses-ai-to-monitor-union-risk-in.md)　<sub>2026-10-18</sub>
+- [突发！DeepSeek新模型发布，超级性价比斩杀一切](./news/2026-10-17-突发-deepseek新模型发布-超级性价比斩杀一切.md)　<sub>2026-10-17</sub>
 
 ## 怎么打卡
 
