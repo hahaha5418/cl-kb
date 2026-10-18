@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-18"
+date: "2026-10-19"
 ---
 
 # 今日学习任务
 
-> 2026-10-18 · 由脚本自动生成（AI 辅助）
+> 2026-10-19 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-18"
 
 ## 今天做这几件事
 
-1. [用 AI 做一份 10 页 PPT（推荐 Gamma）](./path/stage-3/04-用AI做一份10页PPT.md)　<sub>stage · 3</sub>
 1. [给视频配 AI 配音，学会选择和克隆音色](./path/stage-3/05-给视频配AI配音学会选择.md)　<sub>stage · 3</sub>
 1. [用剪映或类似工具完成一次完整剪辑](./path/stage-3/06-用剪映或类似工具完成一次.md)　<sub>stage · 3</sub>
+1. [把一条内容改写成 3 个平台的版本](./path/stage-3/07-把一条内容改写成3个平台.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
+- [Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi](./news/2026-10-19-meta-联手苹果推出全美最强开源模型-编码基测输给智谱-kimi.md)　<sub>2026-10-19</sub>
+- [Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’](./news/2026-10-19-anthropic-says-it-s-committing-5-of-its.md)　<sub>2026-10-19</sub>
+- [17岁 Kimi 架构核心参与者离职，确认将赴湾区，下一站引发猜想](./news/2026-10-19-17岁-kimi-架构核心参与者离职-确认将赴湾区-下一站引发猜想.md)　<sub>2026-10-19</sub>
 - [Replit makes OpenAI its default over Anthropic, CEO says](./news/2026-10-18-replit-makes-openai-its-default-over-ant.md)　<sub>2026-10-18</sub>
 - [Meta removes language that raised scraping and AI training concerns](./news/2026-10-18-meta-removes-language-that-raised-scrapi.md)　<sub>2026-10-18</sub>
-- [Anthropic says its workforce has become less junior and is spending more time in meetings](./news/2026-10-18-anthropic-says-its-workforce-has-become.md)　<sub>2026-10-18</sub>
-- [Amazon uses AI to monitor union risk in UK warehouses](./news/2026-10-18-amazon-uses-ai-to-monitor-union-risk-in.md)　<sub>2026-10-18</sub>
-- [突发！DeepSeek新模型发布，超级性价比斩杀一切](./news/2026-10-17-突发-deepseek新模型发布-超级性价比斩杀一切.md)　<sub>2026-10-17</sub>
 
 ## 怎么打卡
 
