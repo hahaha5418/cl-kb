@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-19"
+date: "2026-10-20"
 ---
 
 # 今日学习任务
 
-> 2026-10-19 · 由脚本自动生成（AI 辅助）
+> 2026-10-20 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-19"
 
 ## 今天做这几件事
 
-1. [给视频配 AI 配音，学会选择和克隆音色](./path/stage-3/05-给视频配AI配音学会选择.md)　<sub>stage · 3</sub>
 1. [用剪映或类似工具完成一次完整剪辑](./path/stage-3/06-用剪映或类似工具完成一次.md)　<sub>stage · 3</sub>
 1. [把一条内容改写成 3 个平台的版本](./path/stage-3/07-把一条内容改写成3个平台.md)　<sub>stage · 3</sub>
+1. [阶段三 · 用 AI 做内容](./path/stage-3/index.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi](./news/2026-10-19-meta-联手苹果推出全美最强开源模型-编码基测输给智谱-kimi.md)　<sub>2026-10-19</sub>
-- [Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’](./news/2026-10-19-anthropic-says-it-s-committing-5-of-its.md)　<sub>2026-10-19</sub>
-- [17岁 Kimi 架构核心参与者离职，确认将赴湾区，下一站引发猜想](./news/2026-10-19-17岁-kimi-架构核心参与者离职-确认将赴湾区-下一站引发猜想.md)　<sub>2026-10-19</sub>
-- [Replit makes OpenAI its default over Anthropic, CEO says](./news/2026-10-18-replit-makes-openai-its-default-over-ant.md)　<sub>2026-10-18</sub>
-- [Meta removes language that raised scraping and AI training concerns](./news/2026-10-18-meta-removes-language-that-raised-scrapi.md)　<sub>2026-10-18</sub>
+- [Tolan snags $30M for its AI companion that helps users navigate life](./news/2026-10-20-tolan-snags-30m-for-its-ai-companion-tha.md)　<sub>2026-10-20</sub>
+- [Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’](./news/2026-10-20-microsoft-says-ai-agents-are-like-inside.md)　<sub>2026-10-20</sub>
+- [Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says](./news/2026-10-20-embedded-ai-evaluators-won-t-be-an-easy.md)　<sub>2026-10-20</sub>
+- [Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool](./news/2026-10-20-amazon-is-taking-its-biggest-shot-at-nvi.md)　<sub>2026-10-20</sub>
+- [TorchNeuron: running HF models on AWS Trainium is easier than ever](./news/2026-10-19-torchneuron-running-hf-models-on-aws-tra.md)　<sub>2026-10-19</sub>
 
 ## 怎么打卡
 
