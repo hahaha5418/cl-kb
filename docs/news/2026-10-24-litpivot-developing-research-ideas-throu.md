@@ -12,7 +12,7 @@ cover: "/covers/news/code.svg"
 <img class="cl-article-cover" src="/covers/news/code.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-10-24T09:19:45+08:00">🕒 3 分钟前更新</span>
+  <span class="cl-time" data-ts="2026-10-24T09:19:45+08:00">🕒 23 小时前更新</span>
   <span class="cl-meta-item">📰 **Hugging Face**</span>
   <span class="cl-meta-item">🏷️ 开源</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>
