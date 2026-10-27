@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-26"
+date: "2026-10-27"
 ---
 
 # 今日学习任务
 
-> 2026-10-26 · 由脚本自动生成（AI 辅助）
+> 2026-10-27 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-26"
 
 ## 今天做这几件事
 
-1. [给工作流加上定时触发和结果推送](./path/stage-4/04-给工作流加上定时触发和结.md)　<sub>stage · 4</sub>
 1. [学会用 API 调用模型，写一个简单脚本](./path/stage-4/05-学会用API调用模型写一.md)　<sub>stage · 4</sub>
 1. [把你自己最常用的 1 个流程完全自动化](./path/stage-4/06-把你自己最常用的1个流程.md)　<sub>stage · 4</sub>
+1. [阶段四 · 搭建自动化工作流](./path/stage-4/index.md)　<sub>stage · 4</sub>
 
 ## 今天值得看的新热点
 
-- [四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了](./news/2026-10-25-四分之一pr是-ai垃圾-linux基金会发布新报告-ai写代码快了52-开源维.md)　<sub>2026-10-25</sub>
-- [Google’s AI search changes upended online publishing](./news/2026-10-25-google-s-ai-search-changes-upended-onlin.md)　<sub>2026-10-25</sub>
-- [奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚](./news/2026-10-24-奥特曼最新-45-分钟访谈-一年不写代码-压力大到不想起床-还嫌-chatgpt.md)　<sub>2026-10-24</sub>
-- [Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)](./news/2026-10-24-rapidly-scaling-online-storage-to-serve.md)　<sub>2026-10-24</sub>
-- [OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”](./news/2026-10-24-openai-says-it-will-no-longer-train-its.md)　<sub>2026-10-24</sub>
+- [中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付](./news/2026-10-27-中科慧灵完成数亿元a-轮融资-制鞋机器人订单超-4-亿元-具身智能开始拼量产交付.md)　<sub>2026-10-27</sub>
+- [Will the real Anthropic please stand up](./news/2026-10-27-will-the-real-anthropic-please-stand-up.md)　<sub>2026-10-27</sub>
+- [SpaceX locks in $40B GPU financing deal with Apollo](./news/2026-10-27-spacex-locks-in-40b-gpu-financing-deal-w.md)　<sub>2026-10-27</sub>
+- [Our newest AI Quest: Mapping the human brain](./news/2026-10-27-our-newest-ai-quest-mapping-the-human-br.md)　<sub>2026-10-27</sub>
+- [OpenAI announces three big science discoveries and a new way to work with academics](./news/2026-10-27-openai-announces-three-big-science-disco.md)　<sub>2026-10-27</sub>
 
 ## 怎么打卡
 
