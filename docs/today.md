@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-27"
+date: "2026-10-28"
 ---
 
 # 今日学习任务
 
-> 2026-10-27 · 由脚本自动生成（AI 辅助）
+> 2026-10-28 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-27"
 
 ## 今天做这几件事
 
-1. [学会用 API 调用模型，写一个简单脚本](./path/stage-4/05-学会用API调用模型写一.md)　<sub>stage · 4</sub>
 1. [把你自己最常用的 1 个流程完全自动化](./path/stage-4/06-把你自己最常用的1个流程.md)　<sub>stage · 4</sub>
 1. [阶段四 · 搭建自动化工作流](./path/stage-4/index.md)　<sub>stage · 4</sub>
+1. [弄懂 5 个核心概念：大模型、Token、上下文、幻觉、多模态](./path/stage-1/01-弄懂5个核心概念大模型T.md)　<sub>stage · 1</sub>
 
 ## 今天值得看的新热点
 
-- [中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付](./news/2026-10-27-中科慧灵完成数亿元a-轮融资-制鞋机器人订单超-4-亿元-具身智能开始拼量产交付.md)　<sub>2026-10-27</sub>
-- [Will the real Anthropic please stand up](./news/2026-10-27-will-the-real-anthropic-please-stand-up.md)　<sub>2026-10-27</sub>
-- [SpaceX locks in $40B GPU financing deal with Apollo](./news/2026-10-27-spacex-locks-in-40b-gpu-financing-deal-w.md)　<sub>2026-10-27</sub>
-- [Our newest AI Quest: Mapping the human brain](./news/2026-10-27-our-newest-ai-quest-mapping-the-human-br.md)　<sub>2026-10-27</sub>
-- [OpenAI announces three big science discoveries and a new way to work with academics](./news/2026-10-27-openai-announces-three-big-science-disco.md)　<sub>2026-10-27</sub>
+- [Who’s really in charge at Anthropic after the IPO?](./news/2026-10-28-who-s-really-in-charge-at-anthropic-afte.md)　<sub>2026-10-28</sub>
+- [VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more](./news/2026-10-28-vcs-will-make-billions-on-anthropic-s-ip.md)　<sub>2026-10-28</sub>
+- [Researchers are getting tired of OpenAI gatekeeping its breakthroughs](./news/2026-10-28-researchers-are-getting-tired-of-openai.md)　<sub>2026-10-28</sub>
+- [Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication](./news/2026-10-28-parents-sue-openai-alleging-gpt-4o-coach.md)　<sub>2026-10-28</sub>
+- [Google’s next Genie AI model generates more realistic experiences](./news/2026-10-28-google-s-next-genie-ai-model-generates-m.md)　<sub>2026-10-28</sub>
 
 ## 怎么打卡
 
