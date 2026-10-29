@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-28"
+date: "2026-10-29"
 ---
 
 # 今日学习任务
 
-> 2026-10-28 · 由脚本自动生成（AI 辅助）
+> 2026-10-29 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-10-28"
 
 ## 今天做这几件事
 
-1. [把你自己最常用的 1 个流程完全自动化](./path/stage-4/06-把你自己最常用的1个流程.md)　<sub>stage · 4</sub>
 1. [阶段四 · 搭建自动化工作流](./path/stage-4/index.md)　<sub>stage · 4</sub>
 1. [弄懂 5 个核心概念：大模型、Token、上下文、幻觉、多模态](./path/stage-1/01-弄懂5个核心概念大模型T.md)　<sub>stage · 1</sub>
+1. [搞清「训练」和「推理」的区别](./path/stage-1/02-搞清训练和推理的区别.md)　<sub>stage · 1</sub>
 
 ## 今天值得看的新热点
 
-- [Who’s really in charge at Anthropic after the IPO?](./news/2026-10-28-who-s-really-in-charge-at-anthropic-afte.md)　<sub>2026-10-28</sub>
-- [VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more](./news/2026-10-28-vcs-will-make-billions-on-anthropic-s-ip.md)　<sub>2026-10-28</sub>
-- [Researchers are getting tired of OpenAI gatekeeping its breakthroughs](./news/2026-10-28-researchers-are-getting-tired-of-openai.md)　<sub>2026-10-28</sub>
-- [Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication](./news/2026-10-28-parents-sue-openai-alleging-gpt-4o-coach.md)　<sub>2026-10-28</sub>
-- [Google’s next Genie AI model generates more realistic experiences](./news/2026-10-28-google-s-next-genie-ai-model-generates-m.md)　<sub>2026-10-28</sub>
+- [Microsoft recorded $10 billion in revenue from OpenAI](./news/2026-10-29-microsoft-recorded-10-billion-in-revenue.md)　<sub>2026-10-29</sub>
+- [Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion](./news/2026-10-29-microsoft-just-shared-azure-s-actual-rev.md)　<sub>2026-10-29</sub>
+- [Microsoft is ending Copilot support on smart TVs](./news/2026-10-29-microsoft-is-ending-copilot-support-on-s.md)　<sub>2026-10-29</sub>
+- [Microsoft hits 10 quarters of record-breaking revenue in a row](./news/2026-10-29-microsoft-hits-10-quarters-of-record-bre.md)　<sub>2026-10-29</sub>
+- [Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity](./news/2026-10-29-google-launches-gemini-4-carbon-with-a-s.md)　<sub>2026-10-29</sub>
 
 ## 怎么打卡
 
