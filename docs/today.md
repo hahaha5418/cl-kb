@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-10-31"
+date: "2026-11-01"
 ---
 
 # 今日学习任务
 
-> 2026-10-31 · 由脚本自动生成（AI 辅助）
+> 2026-11-01 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -19,11 +19,11 @@ date: "2026-10-31"
 
 ## 今天值得看的新热点
 
-- [nemotron-halloween](./news/2026-10-31-nemotron-halloween.md)　<sub>2026-10-31</sub>
-- [Intel’s stock crashes, knocking $12B from government’s stake](./news/2026-10-31-intel-s-stock-crashes-knocking-12b-from.md)　<sub>2026-10-31</sub>
-- [Google’s satellite AI server transmits its first response to Earth](./news/2026-10-31-google-s-satellite-ai-server-transmits-i.md)　<sub>2026-10-31</sub>
-- [EmbeddingGemma 2：Google 把五种模态塞进同一个向量空间](./news/2026-10-31-embeddinggemma-2-google-把五种模态塞进同一个向量空间.md)　<sub>2026-10-31</sub>
-- [Apple Intelligence is finally coming to China with iOS 27.3](./news/2026-10-31-apple-intelligence-is-finally-coming-to.md)　<sub>2026-10-31</sub>
+- [OpenAI reportedly lowers funding target for new round](./news/2026-11-01-openai-reportedly-lowers-funding-target.md)　<sub>2026-11-01</sub>
+- [I built an AI Tamagotchi before Meta could](./news/2026-11-01-i-built-an-ai-tamagotchi-before-meta-cou.md)　<sub>2026-11-01</sub>
+- [Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’](./news/2026-11-01-apple-ceo-says-the-company-doesn-t-want.md)　<sub>2026-11-01</sub>
+- [当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座](./news/2026-10-31-当ai从-会想-走向-会干-腾讯云与英特尔共筑agentic-ai执行新底座.md)　<sub>2026-10-31</sub>
+- [刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」](./news/2026-10-31-刚刚-claude宣布取消5小时限制-首批ultra用户已-解封.md)　<sub>2026-10-31</sub>
 
 ## 怎么打卡
 
