@@ -12,7 +12,7 @@ cover: "/covers/news/chip.svg"
 <img class="cl-article-cover" src="/covers/news/chip.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-11-09T10:18:34+08:00">🕒 5 分钟前更新</span>
+  <span class="cl-time" data-ts="2026-11-09T10:18:34+08:00">🕒 1 天前更新</span>
   <span class="cl-meta-item">📰 The Verge AI</span>
   <span class="cl-meta-item">🏷️ 行业</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>
