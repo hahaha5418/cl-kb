@@ -12,7 +12,7 @@ cover: "/covers/news/research.svg"
 <img class="cl-article-cover" src="/covers/news/research.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-11-12T11:33:57+08:00">🕒 5 分钟前更新</span>
+  <span class="cl-time" data-ts="2026-11-12T11:33:57+08:00">🕒 23 小时前更新</span>
   <span class="cl-meta-item">📰 InfoQ 中文</span>
   <span class="cl-meta-item">🏷️ 国内</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>

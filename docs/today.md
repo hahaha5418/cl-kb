@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-11-12"
+date: "2026-11-13"
 ---
 
 # 今日学习任务
 
-> 2026-11-12 · 由脚本自动生成（AI 辅助）
+> 2026-11-13 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-11-12"
 
 ## 今天做这几件事
 
-1. [学会控制输出格式：JSON、表格、Markdown](./path/stage-2/06-学会控制输出格式JSON.md)　<sub>stage · 2</sub>
 1. [测试温度和 Top-P 对结果的影响](./path/stage-2/07-测试温度和TopP对结果.md)　<sub>stage · 2</sub>
 1. [阶段二 · 提示词工程](./path/stage-2/index.md)　<sub>stage · 2</sub>
+1. [用 AI 生成一组风格统一的配图，试 3 个工具做对比](./path/stage-3/01-用AI生成一组风格统一的.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%](./news/2026-11-12-谷歌发布首款决策模型-gemini-decision-1-9-项测试拿下-7-项.md)　<sub>2026-11-12</sub>
-- [Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.](./news/2026-11-12-try-tabletop-customizable-collaborative.md)　<sub>2026-11-12</sub>
-- [Google’s Tabletop AI experiment lets you build custom collaboration apps](./news/2026-11-12-google-s-tabletop-ai-experiment-lets-you.md)　<sub>2026-11-12</sub>
-- [Gilbert + Tobin rethinks the business of law with AI](./news/2026-11-12-gilbert-tobin-rethinks-the-business-of-l.md)　<sub>2026-11-12</sub>
-- [Gemini Decisions API: Fast, calibrated multimodal decisions](./news/2026-11-12-gemini-decisions-api-fast-calibrated-mul.md)　<sub>2026-11-12</sub>
+- [LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B](./news/2026-11-13-llmon-an-llm-native-markup-language-now.md)　<sub>2026-11-13</sub>
+- [Introducing Gemini 4 Hydrogen](./news/2026-11-13-introducing-gemini-4-hydrogen.md)　<sub>2026-11-13</sub>
+- [How Amplitude ships product improvements in 1–2 days with OpenAI](./news/2026-11-13-how-amplitude-ships-product-improvements.md)　<sub>2026-11-13</sub>
+- [Google Search gets a major upgrade with Gemini 4 Hydrogen](./news/2026-11-13-google-search-gets-a-major-upgrade-with.md)　<sub>2026-11-13</sub>
+- [Google’s new Gemini model is better at understanding complicated questions](./news/2026-11-13-google-s-new-gemini-model-is-better-at-u.md)　<sub>2026-11-13</sub>
 
 ## 怎么打卡
 
