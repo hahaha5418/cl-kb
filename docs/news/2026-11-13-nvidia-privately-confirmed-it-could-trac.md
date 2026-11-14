@@ -12,7 +12,7 @@ cover: "/covers/news/chip.svg"
 <img class="cl-article-cover" src="/covers/news/chip.svg" alt="主题示意图" loading="lazy">
 
 <div class="cl-meta">
-  <span class="cl-time" data-ts="2026-11-13T11:05:50+08:00">🕒 6 分钟前更新</span>
+  <span class="cl-time" data-ts="2026-11-13T11:05:50+08:00">🕒 23 小时前更新</span>
   <span class="cl-meta-item">📰 MIT Tech Review</span>
   <span class="cl-meta-item">🏷️ 观点</span>
   <span class="cl-meta-item">⏱ 约 1 分钟读完</span>
