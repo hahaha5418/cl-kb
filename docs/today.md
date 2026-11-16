@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-11-15"
+date: "2026-11-16"
 ---
 
 # 今日学习任务
 
-> 2026-11-15 · 由脚本自动生成（AI 辅助）
+> 2026-11-16 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-11-15"
 
 ## 今天做这几件事
 
-1. [用 AI 生成一组风格统一的配图，试 3 个工具做对比](./path/stage-3/01-用AI生成一组风格统一的.md)　<sub>stage · 3</sub>
 1. [写出第一版文生图提示词，并迭代 5 次](./path/stage-3/02-写出第一版文生图提示词并.md)　<sub>stage · 3</sub>
 1. [用 AI 生成一段 5 秒视频](./path/stage-3/03-用AI生成一段5秒视频.md)　<sub>stage · 3</sub>
+1. [用 AI 做一份 10 页 PPT（推荐 Gamma）](./path/stage-3/04-用AI做一份10页PPT.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！](./news/2026-11-14-英伟达上演-奥特曼2-0-员工集体请愿-让老黄回家.md)　<sub>2026-11-14</sub>
-- [「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭](./news/2026-11-14-史上最严-湿实验预测基准发布-推理拉满-算力翻5倍也白搭.md)　<sub>2026-11-14</sub>
-- [XYBench: Helping with the problem behind the question](./news/2026-11-14-xybench-helping-with-the-problem-behind.md)　<sub>2026-11-14</sub>
-- [The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs](./news/2026-11-14-the-openai-board-member-who-fired-sam-al.md)　<sub>2026-11-14</sub>
-- [GitHub Actions 锁文件功能正式可用，保障工作流依赖安全](./news/2026-11-14-github-actions-锁文件功能正式可用-保障工作流依赖安全.md)　<sub>2026-11-14</sub>
+- [Our new blog for science](./news/2026-11-16-our-new-blog-for-science.md)　<sub>2026-11-16</sub>
+- [Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market](./news/2026-11-16-indian-chip-startup-bharat-semi-lands-24.md)　<sub>2026-11-16</sub>
+- [Apple’s new study looks to improve the effectiveness of AI health tools](./news/2026-11-16-apple-s-new-study-looks-to-improve-the-e.md)　<sub>2026-11-16</sub>
+- [Apple launches new app to study how people use AI for health](./news/2026-11-16-apple-launches-new-app-to-study-how-peop.md)　<sub>2026-11-16</sub>
+- [A step toward defining the Standard Model on a lattice](./news/2026-11-16-a-step-toward-defining-the-standard-mode.md)　<sub>2026-11-16</sub>
 
 ## 怎么打卡
 
