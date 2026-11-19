@@ -1,11 +1,11 @@
 ---
 title: "今日学习任务"
-date: "2026-11-18"
+date: "2026-11-19"
 ---
 
 # 今日学习任务
 
-> 2026-11-18 · 由脚本自动生成（AI 辅助）
+> 2026-11-19 · 由脚本自动生成（AI 辅助）
 
 <div class="cl-hero-grad g-today"><span class="cl-hero-icon">🎯</span><span class="cl-hero-text">今日学习任务 · 每天自动更新</span></div>
 
@@ -13,17 +13,17 @@ date: "2026-11-18"
 
 ## 今天做这几件事
 
-1. [用 AI 做一份 10 页 PPT（推荐 Gamma）](./path/stage-3/04-用AI做一份10页PPT.md)　<sub>stage · 3</sub>
 1. [给视频配 AI 配音，学会选择和克隆音色](./path/stage-3/05-给视频配AI配音学会选择.md)　<sub>stage · 3</sub>
 1. [用剪映或类似工具完成一次完整剪辑](./path/stage-3/06-用剪映或类似工具完成一次.md)　<sub>stage · 3</sub>
+1. [把一条内容改写成 3 个平台的版本](./path/stage-3/07-把一条内容改写成3个平台.md)　<sub>stage · 3</sub>
 
 ## 今天值得看的新热点
 
-- [黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑](./news/2026-11-18-黄仁勋不再沉默-我愿重掌英伟达-董事会-不考虑.md)　<sub>2026-11-18</sub>
-- [Put Gemini to work for you](./news/2026-11-18-put-gemini-to-work-for-you.md)　<sub>2026-11-18</sub>
-- [Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt](./news/2026-11-18-nvidia-s-startup-stakes-ballooned-to-65b.md)　<sub>2026-11-18</sub>
-- [GPT-6.2 Astra和Sol王炸双发！3D又危了](./news/2026-11-18-gpt-6-2-astra和sol王炸双发-3d又危了.md)　<sub>2026-11-18</sub>
-- [Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free](./news/2026-11-18-google-s-spark-ai-agent-becomes-tasks-an.md)　<sub>2026-11-18</sub>
+- [微软将停用 Azure 部署环境，而且不会推出替代产品](./news/2026-11-19-微软将停用-azure-部署环境-而且不会推出替代产品.md)　<sub>2026-11-19</sub>
+- [Why your fine-tuning job takes longer than the FLOPs say](./news/2026-11-19-why-your-fine-tuning-job-takes-longer-th.md)　<sub>2026-11-19</sub>
+- [The nation’s largest school districts consider ditching Google Search](./news/2026-11-19-the-nation-s-largest-school-districts-co.md)　<sub>2026-11-19</sub>
+- [The Gemini app is now available on lower-memory Android devices.](./news/2026-11-19-the-gemini-app-is-now-available-on-lower.md)　<sub>2026-11-19</sub>
+- [Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit](./news/2026-11-19-microsoft-ceo-satya-nadella-remains-conf.md)　<sub>2026-11-19</sub>
 
 ## 怎么打卡
 
